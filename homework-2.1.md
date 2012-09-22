@@ -26,3 +26,29 @@ my_github_user/my_repository/path/to/file.php:42
     // Function: do_something_amazing()
 ```
 
+sharievans/ThermX/core/components/thermx/thermx.class.php: 123
+```php
+ $current = $this->thermxProgress;
+// Variable: $current
+// Variable: $this
+// Operator: =
+// Object Operator: ->
+// Function: thermxProgress
+```
+
+
+sharievans/ThermX/core/components/thermx/thermx.class.php: 127
+```php  
+if ($current >= $max) {
+// Variable: $current
+// Compare: >=
+// Variable: $max
+```
+
+
+sharievans/ThermX/core/components/thermx/thermx.class.php: 142
+```php
+$output .= "    <div class='thermx-progressmercury percent'>\n";
+// Variable: output
+// String: 'thermx-progressmercury percent'
+```
