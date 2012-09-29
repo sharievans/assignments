@@ -26,6 +26,7 @@ my_github_user/my_repository/path/to/file.php:42
     // Function: do_something_amazing()
 ```
 
+<<<<<<< HEAD
 sharievans/ThermX/core/components/thermx/thermx.class.php: 123
 ```php
  $current = $this->thermxProgress;
@@ -51,4 +52,12 @@ sharievans/ThermX/core/components/thermx/thermx.class.php: 142
 $output .= "    <div class='thermx-progressmercury percent'>\n";
 // Variable: output
 // String: 'thermx-progressmercury percent'
+=======
+al_the_x/some_awesome_project/path/to/some/file.php:42
+```php
+ if ( PHP == 'awesome' ) {
+ // Constant: PHP
+ // Comparison: ==
+ // String: 'awesome'
+>>>>>>> other/master
 ```
