@@ -1,0 +1,4 @@
+{"ts":1349535506945,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"<?php\nvar_dump(array( 'one', 'two', 3, 4, 4.1, 4.2 ));"]],"start1":0,"start2":0,"length1":0,"length2":54}]],"length":54}
+{"contributors":[],"silentsave":false,"ts":1349535620229,"patch":[[{"diffs":[[0," 4.2 ));"],[1,"\n"]],"start1":46,"start2":46,"length1":8,"length2":9}]],"length":55,"saved":false}
+{"ts":1349535893148,"patch":[[{"diffs":[[0,"var_"],[-1,"dump"],[1,"export"],[0,"(arr"]],"start1":6,"start2":6,"length1":12,"length2":14}]],"length":57,"saved":false}
+{"ts":1349536036720,"patch":[[{"diffs":[[0,"4.2 ));\n"],[1,"\nvar_dump(array( 'one' => 1, 2 => 'two' ));"]],"start1":49,"start2":49,"length1":8,"length2":51}]],"length":100,"saved":false}
