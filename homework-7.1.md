@@ -6,16 +6,19 @@ sharievans/wordpress/admin/custom-background.php:119
 function take_action() {
 
 // function name: take_action()
-// variable: NULL
 
     	if ( empty($_POST) )
 			return;
 
 		if ( isset($_POST['reset-background']) ) {
+        
+// variable: $_POST
+
 			check_admin_referer('custom-background-reset', '_wpnonce-custom-background-reset');
 			remove_theme_mod('background_image');
 			remove_theme_mod('background_image_thumb');
 			$this->updated = true;
+// Variable: $this
 			return;
 		}
 
@@ -35,6 +38,9 @@ function take_action() {
 				$repeat = $_POST['background-repeat'];
 			else
 				$repeat = 'repeat';
+                
+// Variable: $repeat
+
 			set_theme_mod('background_repeat', $repeat);
 		}
 
@@ -46,6 +52,7 @@ function take_action() {
 				$position = 'left';
 			set_theme_mod('background_position_x', $position);
 		}
+// Variable: $position
 
 		if ( isset($_POST['background-attachment']) ) {
 			check_admin_referer('custom-background');
@@ -55,21 +62,24 @@ function take_action() {
 				$attachment = 'fixed';
 			set_theme_mod('background_attachment', $attachment);
 		}
+        
+// Variable: $attachment
 
 		if ( isset($_POST['background-color']) ) {
 			check_admin_referer('custom-background');
 			$color = preg_replace('/[^0-9a-fA-F]/', '', $_POST['background-color']);
+            
+// Variable: $color
+
 			if ( strlen($color) == 6 || strlen($color) == 3 )
 				set_theme_mod('background_color', $color);
 			else
 				set_theme_mod('background_color', '');
 		}
-        
-        //guard 
 
 		$this->updated = true;
 	}
-    //return value: $this->Updated = true
+// return value: $this->Updated = true
 
 ``` 
     
@@ -78,16 +88,18 @@ sharievans/wordpress/wp-admin/network.php:53
 ```php
     function allow_subdomain_install() {
     //function name: allow_subdomain_insall
-    //variable: NULL
     
     
     $domain = preg_replace( '|https?://([^/]+)|', '$1', get_option( 'home' ) );
+    
+// Variable: $domain
 
 	if( parse_url( get_option( 'home' ), PHP_URL_PATH ) || 'localhost' == $domain || 
     preg_match( '|^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$|', $domain ) )
 		return false;
         
-        // return: false
+// variable: $domain        
+// return: false
 
 	return true;
 }
@@ -109,7 +121,7 @@ sharievans/wordpress/wp-admin/network.php:53
 	if ( ! $path || ! @is_file($path) )
 		return '';
         
-        // return: NULL
+// return: NULL
 
 	return @file_get_contents($path);
     // return: @file_get_contents($path)
