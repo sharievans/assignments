@@ -70,11 +70,12 @@ function take_action() {
 		$this->updated = true;
 	}
     //return value: $this->Updated = true
+
+``` 
     
     
-    
-    sharievans/wordpress/wp-admin/network.php:53
-    ```php
+sharievans/wordpress/wp-admin/network.php:53
+```php
     function allow_subdomain_install() {
     //function name: allow_subdomain_insall
     //variable: NULL
@@ -92,10 +93,11 @@ function take_action() {
 }
 
 // return: true
-    ```
+    
+```
     
    sharievans/wordpress/wp-admin/load-scripts.php:106
-   ```php
+```php
    
     function get_file($path) {
     // function: get_file
@@ -112,6 +114,6 @@ function take_action() {
 	return @file_get_contents($path);
     // return: @file_get_contents($path)
 }
-    ```
+
+```
     
-    ```
