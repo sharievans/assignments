@@ -79,7 +79,7 @@ function take_action() {
 
 		$this->updated = true;
 	}
-// return value: $this->Updated = true
+// updated is a property
 
 ``` 
     
