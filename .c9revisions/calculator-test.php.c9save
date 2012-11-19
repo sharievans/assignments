@@ -1,0 +1,61 @@
+{"ts":1352084422264,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1352084485221,"patch":[[{"diffs":[[1,"<?php\n\ninclude \"calculator.php\";\n"]],"start1":0,"start2":0,"length1":0,"length2":33}]],"length":33,"saved":false}
+{"ts":1352084664625,"patch":[[{"diffs":[[0,"r.php\";\n"],[1,"\n\nassert add (0, -1) == -1;"]],"start1":25,"start2":25,"length1":8,"length2":35}]],"length":60,"saved":false}
+{"ts":1352084786380,"patch":[[{"diffs":[[0,"sert add"],[-1," "],[0,"(0, -1) "]],"start1":37,"start2":37,"length1":17,"length2":16}]],"length":59,"saved":false}
+{"ts":1352084797714,"patch":[[{"diffs":[[0,"sert add"],[1," "],[0,"(0, -1) "]],"start1":37,"start2":37,"length1":16,"length2":17}]],"length":60,"saved":false}
+{"ts":1352084899128,"patch":[[{"diffs":[[0,"\nassert "],[1,"("],[0,"add (0, "]],"start1":34,"start2":34,"length1":16,"length2":17}]],"length":61,"saved":false}
+{"ts":1352084903417,"patch":[[{"diffs":[[0,"1) == -1"],[1,")"],[0,";"]],"start1":52,"start2":52,"length1":9,"length2":10}]],"length":62,"saved":false}
+{"ts":1352084916501,"patch":[[{"diffs":[[0," == -1);"],[1,"\n"]],"start1":54,"start2":54,"length1":8,"length2":9}]],"length":63,"saved":false}
+{"ts":1352085202870,"patch":[[{"diffs":[[0,"-1) == -"],[-1,"1"],[0,");\n"]],"start1":51,"start2":51,"length1":12,"length2":11}]],"length":62,"saved":false}
+{"ts":1352085205152,"patch":[[{"diffs":[[0,"-1) == -"],[1,"2"],[0,");\n"]],"start1":51,"start2":51,"length1":11,"length2":12}]],"length":63,"saved":false}
+{"ts":1352085218869,"patch":[[{"diffs":[[0,"== -"],[-1,"2"],[1,"1"],[0,");\n"]],"start1":55,"start2":55,"length1":8,"length2":8}]],"length":63,"saved":false}
+{"ts":1352085225489,"patch":[[{"diffs":[[0,"== -1);\n"],[1,"\n\n"]],"start1":55,"start2":55,"length1":8,"length2":10}]],"length":65,"saved":false}
+{"ts":1352085227776,"patch":[[{"diffs":[[0,"= -1);\n\n"],[1,"ass"],[0,"\n"]],"start1":56,"start2":56,"length1":9,"length2":12}]],"length":68,"saved":false}
+{"ts":1352085228988,"patch":[[{"diffs":[[0,"1);\n\nass"],[1,"rt"],[0,"\n"]],"start1":59,"start2":59,"length1":9,"length2":11}]],"length":70,"saved":false}
+{"ts":1352085230382,"patch":[[{"diffs":[[0,";\n\nassrt"],[1," "],[0,"\n"]],"start1":61,"start2":61,"length1":9,"length2":10}]],"length":71,"saved":false}
+{"ts":1352085233050,"patch":[[{"diffs":[[0,"\n\nassrt "],[1,")"],[0,"\n"]],"start1":62,"start2":62,"length1":9,"length2":10}]],"length":72,"saved":false}
+{"ts":1352085234186,"patch":[[{"diffs":[[0,"\n\nassrt "],[-1,")"],[0,"\n"]],"start1":62,"start2":62,"length1":10,"length2":9}]],"length":71,"saved":false}
+{"ts":1352085235167,"patch":[[{"diffs":[[0,"\n\nassrt "],[1,"("],[0,"\n"]],"start1":62,"start2":62,"length1":9,"length2":10}]],"length":72,"saved":false}
+{"ts":1352085236661,"patch":[[{"diffs":[[0,"\nassrt ("],[1,"s"],[0,"\n"]],"start1":63,"start2":63,"length1":9,"length2":10}]],"length":73,"saved":false}
+{"ts":1352085237949,"patch":[[{"diffs":[[0,"assrt (s"],[1,"ub "],[0,"\n"]],"start1":64,"start2":64,"length1":9,"length2":12}]],"length":76,"saved":false}
+{"ts":1352085242100,"patch":[[{"diffs":[[0,"rt (sub "],[1,"("],[0,"\n"]],"start1":67,"start2":67,"length1":9,"length2":10}]],"length":77,"saved":false}
+{"ts":1352085243696,"patch":[[{"diffs":[[0,"t (sub ("],[1,"1"],[0,"\n"]],"start1":68,"start2":68,"length1":9,"length2":10}]],"length":78,"saved":false}
+{"ts":1352085244509,"patch":[[{"diffs":[[0," (sub (1"],[1,", "],[0,"\n"]],"start1":69,"start2":69,"length1":9,"length2":11}]],"length":80,"saved":false}
+{"ts":1352085245826,"patch":[[{"diffs":[[0,"sub (1, "],[1,"1"],[0,"\n"]],"start1":71,"start2":71,"length1":9,"length2":10}]],"length":81,"saved":false}
+{"ts":1352085247446,"patch":[[{"diffs":[[0,"ub (1, 1"],[1,")"],[0,"\n"]],"start1":72,"start2":72,"length1":9,"length2":10}]],"length":82,"saved":false}
+{"ts":1352085248867,"patch":[[{"diffs":[[0,"b (1, 1)"],[1," "],[0,"\n"]],"start1":73,"start2":73,"length1":9,"length2":10}]],"length":83,"saved":false}
+{"ts":1352085250339,"patch":[[{"diffs":[[0," (1, 1) "],[1,"=="],[0,"\n"]],"start1":74,"start2":74,"length1":9,"length2":11}]],"length":85,"saved":false}
+{"ts":1352085252382,"patch":[[{"diffs":[[0,"1, 1) =="],[1," "],[0,"\n"]],"start1":76,"start2":76,"length1":9,"length2":10}]],"length":86,"saved":false}
+{"ts":1352085254842,"patch":[[{"diffs":[[0,", 1) == "],[1,"0"],[0,"\n"]],"start1":77,"start2":77,"length1":9,"length2":10}]],"length":87,"saved":false}
+{"ts":1352085256364,"patch":[[{"diffs":[[0," 1) == 0"],[1,")"],[0,"\n"]],"start1":78,"start2":78,"length1":9,"length2":10}]],"length":88,"saved":false}
+{"ts":1352085258192,"patch":[[{"diffs":[[0,"1) == 0)"],[1,";"],[0,"\n"]],"start1":79,"start2":79,"length1":9,"length2":10}]],"length":89,"saved":false}
+{"ts":1352085263876,"patch":[[{"diffs":[[0,"1);\n\nass"],[1,"e"],[0,"rt (sub "]],"start1":59,"start2":59,"length1":16,"length2":17}]],"length":90,"saved":false}
+{"ts":1352085411700,"patch":[[{"diffs":[[0," == 0);\n"],[1,"\n"]],"start1":82,"start2":82,"length1":8,"length2":9}]],"length":91,"saved":false}
+{"ts":1352085415091,"patch":[[{"diffs":[[0," 1) == 0);\n\n"],[1,"assert "]],"start1":79,"start2":79,"length1":12,"length2":19}]],"length":98,"saved":false}
+{"ts":1352085416609,"patch":[[{"diffs":[[0," == 0);\n\nassert "],[1,"("]],"start1":82,"start2":82,"length1":16,"length2":17}]],"length":99,"saved":false}
+{"ts":1352085417629,"patch":[[{"diffs":[[0," 1) == 0);\n\nassert ("],[1,"sub"]],"start1":79,"start2":79,"length1":20,"length2":23}]],"length":102,"saved":false}
+{"ts":1352085419630,"patch":[[{"diffs":[[0," == 0);\n\nassert (sub"],[1," "]],"start1":82,"start2":82,"length1":20,"length2":21}]],"length":103,"saved":false}
+{"ts":1352085421329,"patch":[[{"diffs":[[0," 1) == 0);\n\nassert (sub "],[1,"("]],"start1":79,"start2":79,"length1":24,"length2":25}]],"length":104,"saved":false}
+{"ts":1352085424538,"patch":[[{"diffs":[[0,"1) == 0);\n\nassert (sub ("],[1,"1, 0"]],"start1":80,"start2":80,"length1":24,"length2":28}]],"length":108,"saved":false}
+{"ts":1352085426639,"patch":[[{"diffs":[[0,"ub (1, 0"],[1,"_ "]],"start1":100,"start2":100,"length1":8,"length2":10}]],"length":110,"saved":false}
+{"ts":1352085428609,"patch":[[{"diffs":[[0," (1, 0_ "],[1,"=="]],"start1":102,"start2":102,"length1":8,"length2":10}]],"length":112,"saved":false}
+{"ts":1352085431954,"patch":[[{"diffs":[[0,"1, 0"],[-1,"_ =="]],"start1":104,"start2":104,"length1":8,"length2":4}]],"length":108,"saved":false}
+{"ts":1352085433308,"patch":[[{"diffs":[[0,"ub (1, 0"],[1,")"]],"start1":100,"start2":100,"length1":8,"length2":9}]],"length":109,"saved":false}
+{"ts":1352085434740,"patch":[[{"diffs":[[0,"b (1, 0)"],[1," ="]],"start1":101,"start2":101,"length1":8,"length2":10}]],"length":111,"saved":false}
+{"ts":1352085436015,"patch":[[{"diffs":[[0,"(1, 0) ="],[1,"="]],"start1":103,"start2":103,"length1":8,"length2":9}]],"length":112,"saved":false}
+{"ts":1352085438148,"patch":[[{"diffs":[[0,"ub (1, 0) =="],[1," "]],"start1":100,"start2":100,"length1":12,"length2":13}]],"length":113,"saved":false}
+{"ts":1352085439322,"patch":[[{"diffs":[[0,"b (1, 0) == "],[1,"1"]],"start1":101,"start2":101,"length1":12,"length2":13}]],"length":114,"saved":false}
+{"ts":1352085442125,"patch":[[{"diffs":[[0," 0) == 1"],[1,")"]],"start1":106,"start2":106,"length1":8,"length2":9}]],"length":115,"saved":false}
+{"ts":1352085443621,"patch":[[{"diffs":[[0,"0) == 1)"],[1,"["]],"start1":107,"start2":107,"length1":8,"length2":9}]],"length":116,"saved":false}
+{"ts":1352085444781,"patch":[[{"diffs":[[0,"= 1)"],[-1,"["]],"start1":111,"start2":111,"length1":5,"length2":4}]],"length":115,"saved":false}
+{"ts":1352085446051,"patch":[[{"diffs":[[0,"0) == 1)"],[1,";"]],"start1":107,"start2":107,"length1":8,"length2":9}]],"length":116,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1352342048762,"patch":[[{"diffs":[[0,"hp\n\n"],[-1,"include \"calculator.php\";\n\n\nassert (add (0, -1) == -1);\n\nassert (sub (1, 1) == 0);\n\nassert (sub (1, 0) == 1);"]],"start1":3,"start2":3,"length1":113,"length2":4}]],"length":7,"saved":false}
+{"ts":1352342212768,"patch":[[{"diffs":[[0,"<?php\n\n"],[1,"assert add (1,1) == 2;"]],"start1":0,"start2":0,"length1":7,"length2":29}]],"length":29,"saved":false}
+{"ts":1352342234259,"patch":[[{"diffs":[[0,"\nassert "],[1,"("],[0,"add (1,1"]],"start1":6,"start2":6,"length1":16,"length2":17},{"diffs":[[0,",1) == 2"],[1,")"],[0,";"]],"start1":21,"start2":21,"length1":9,"length2":10}]],"length":31,"saved":false}
+{"ts":1352342602517,"patch":[[{"diffs":[[0,"<?php\n\n"],[1,"include 'calculator.php';\n\n"],[0,"assert ("]],"start1":0,"start2":0,"length1":15,"length2":42}]],"length":58,"saved":false}
+{"ts":1352343723742,"patch":[[{"diffs":[[0,") == 2);"],[1,"\n\nfunction add()\n{\n    if ($a + $b == true);\n    \n    echo \"This is addition\";\n}"]],"start1":50,"start2":50,"length1":8,"length2":88}]],"length":138,"saved":false}
+{"ts":1352343789999,"patch":[[{"diffs":[[0,"tion add"],[1,"ition"],[0,"()\n{\n   "]],"start1":64,"start2":64,"length1":16,"length2":21}]],"length":143,"saved":false}
+{"ts":1352343804237,"patch":[[{"diffs":[[0,"unction "],[-1,"addition"],[1,"test"],[0,"()\n{\n   "]],"start1":61,"start2":61,"length1":24,"length2":20}]],"length":139,"saved":false}
+{"ts":1352343946862,"patch":[[{"diffs":[[0,".php';\n\n"],[1,"\n\nif  ("],[0,"assert ("]],"start1":26,"start2":26,"length1":16,"length2":23},{"diffs":[[0,"= 2)"],[-1,";\n\nfunction test()\n{\n    if ($a + $b == true);"],[1,")"],[0,"\n   "]],"start1":60,"start2":60,"length1":54,"length2":9},{"diffs":[[0,"on\";"],[-1,"\n}"]],"start1":95,"start2":95,"length1":6,"length2":4}]],"length":99,"saved":false}
+{"ts":1352343981210,"patch":[[{"diffs":[[0," == "],[-1,"2"],[1,"3"],[0,"))\n "]],"start1":58,"start2":58,"length1":9,"length2":9}]],"length":99,"saved":false}
+{"ts":1352343991544,"patch":[[{"diffs":[[0," == "],[-1,"3"],[1,"2"],[0,"))\n "]],"start1":58,"start2":58,"length1":9,"length2":9}]],"length":99,"saved":false}
