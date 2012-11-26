@@ -15,28 +15,30 @@
 require_once "matrix_production_code.php";
 
 
-// I want to test the exisitance of the doors
-if ( is_array ($doors))
-echo 'There are doors in this array';
+// I want to test the exisistence of the doors
+
+if ( is_array ( $doors ))
+echo 'There are doors';
 
 
-// I want to test to see if the array has doors have 100 or less doors.
-if (array ($doors <= 100))
-echo 'There are 100 or less doors';
+// I want to know how many doors we have
 
+if (array ($doors <=100))
+echo 'There are 100 doors';
 
-// I want to test if all the doors are closed.
-if (array ($doors == 'closed'))
-echo 'These doors are closed';
+// Identify the closed doors
+// At this point there should be no closed doors, test did not fail. why?
 
-// I want to find all the even doors.
+// if (array ($doors == 'closed'))
+// echo 'These are all the closed doors';
 
-if ($doors % 2) 
+// I removed the previous code above and made an assertion. Assertion failed.
+
+// assert ($doors == 'closed');
+
+function test_even_doors ($doors)
 {
-echo "This number is not even.";
-} 
-
-else {
-echo "This number is even.";
+    if (( $a % 2 ) == 'closed')
+    echo $a . 'is closed';
 }
-    
+
