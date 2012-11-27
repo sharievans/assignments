@@ -14,31 +14,39 @@
 
 require_once "matrix_production_code.php";
 
+// I want to test if the doors exist.
 
-// I want to test the exisistence of the doors
-
-if ( is_array ( $doors ))
+if ( is_array ($doors))
 echo 'There are doors';
 
+// Successful failing test
+// Production code added: Successful test
 
-// I want to know how many doors we have
 
-if (array ($doors <=100))
-echo 'There are 100 doors';
 
-// Identify the closed doors
-// At this point there should be no closed doors, test did not fail. why?
+// I want to test the number of doors.
 
-// if (array ($doors == 'closed'))
-// echo 'These are all the closed doors';
+if (array ($doors <= 100))
+echo 'There are 100 or less doors';
 
-// I removed the previous code above and made an assertion. Assertion failed.
+//Succesful test
 
-// assert ($doors == 'closed');
 
-function test_even_doors ($doors)
+// I want to test if all the even doors are closed.
+
+/* if ($doors % 2)
 {
-    if (( $a % 2 ) == 'closed')
-    echo $a . 'is closed';
+    echo 'This is a closed door';
 }
+else
+{
+    echo 'This is an open door';
+} */
 
+// Test echos 'This is a closed door'
+
+
+if (array ($doors == $a % 2))
+echo 'This is a closed door';
+
+// Successful failing test
