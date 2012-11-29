@@ -4,19 +4,22 @@
     *this the production code for the Matrix dojo
 */
 
-// I want to create the doors.
+// I want to create the doors
 
-$doors = array_fill (1, 100, 'open');
+$doors = array_fill (1, 100, 'closed');
 
+// Makes incrementing doors open
 
-//I want to close all the even doors
-
-$doors = 
-if ($a % 2)
+for ( $a = 1; $a <= 100; $a++)
 {
-    array_fill ('closed')
+    if ($doors [$a] == 'closed')
+    $doors [$a] = 'open';
 }
-else
+
+// This will make all the even doors closed
+
+for ( $a = 1; $a <= 100; $a++)
 {
-    echo 'This is an open door'
+    if ($doors ($a % 2) == 'closed')
+    echo 'Even doors are closed';
 }
