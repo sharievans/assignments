@@ -14,39 +14,34 @@
 
 require_once "matrix_production_code.php";
 
-// I want to test if the doors exist.
+// I want to test to see if there are doors
 
-if (is_array ( $doors ))
-echo 'There are doors in this array';
+if (is_array ($doors))
+echo 'There are doors';
 
-// failing test
-// added production code and still failing
+// Successful failure
+// Production code added: Successful test
 
 
-//This test creates a loop
-function test_doors ( $doors)
+// I want to see how many doors are in the aray
+
+if (array ($doors <=100 ))
+echo 'There are 100 doors';
+
+// I want to test if all the doors are closed
+
+if (array ($doors == 'closed'))
+echo 'These doors are closed';
+
+// I want to find all the even doors
+
+if ($a % 2 == 0)
 {
-    for ($a = 1; $a <= 100; $a++)
-        {
-            assert ($doors [$a] == 'open');
-            echo $a . 'door' . $doors [$a];
-        }
+    echo 'This door is even and is closed';
+}
+else 
+{ 
+    echo 'This number is odd and is open';
 }
 
-test_doors ($doors);
-
-// test fails
-// added production code all doors are now open
-
-
-// Now I want to test if all even doors are closed
-
-function test_doors_even ($doors)
-{
-    if (( $a % 2 ) == 0)
-    assert ($doors [$a] == 'closed');
-}
-
-test_doors_even ($doors);
-
-//assertion failed
+// Successful failure need to create variable $a

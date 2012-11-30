@@ -1099,3 +1099,170 @@
 {"ts":1354158691756,"patch":[[{"diffs":[[0,"//assertion "],[1,"f"]],"start1":1026,"start2":1026,"length1":12,"length2":13}]],"length":1039,"saved":false}
 {"ts":1354158692903,"patch":[[{"diffs":[[0,"ertion f"],[1,"ail"]],"start1":1031,"start2":1031,"length1":8,"length2":11}]],"length":1042,"saved":false}
 {"ts":1354158694368,"patch":[[{"diffs":[[0,"sertion fail"],[1,"ed"]],"start1":1030,"start2":1030,"length1":12,"length2":14}]],"length":1044,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1354243820351,"patch":[[{"diffs":[[0,"\";\n\n"],[-1,"// I want to test if the doors exist.\n\nif (is_array ( $doors ))\necho 'There are doors in this array';\n\n// failing test\n// added production code and still failing\n\n\n//This test creates a loop\nfunction test_doors ( $doors)\n{\n    for ($a = 1; $a <= 100; $a++)\n        {\n            assert ($doors [$a] == 'open');\n            echo $a . 'door' . $doors [$a];\n        }\n}\n\ntest_doors ($doors);\n\n// test fails\n// added production code all doors are now open\n\n\n// Now I want to test if all even doors are closed\n\nfunction test_doors_even ($doors)\n{\n    if (( $a % 2 ) == 0)\n    assert ($doors [$a] == 'closed');\n}\n\ntest_doors_even ($doors);\n\n//assertion failed"]],"start1":387,"start2":387,"length1":657,"length2":4}]],"length":391,"saved":false}
+{"ts":1354243833990,"patch":[[{"diffs":[[0,".php\";\n\n"],[1,"//"]],"start1":383,"start2":383,"length1":8,"length2":10}]],"length":393,"saved":false}
+{"ts":1354243838807,"patch":[[{"diffs":[[0,"hp\";\n\n//"],[1," I"]],"start1":385,"start2":385,"length1":8,"length2":10}]],"length":395,"saved":false}
+{"ts":1354243840106,"patch":[[{"diffs":[[0,"\";\n\n// I"],[1," w"]],"start1":387,"start2":387,"length1":8,"length2":10}]],"length":397,"saved":false}
+{"ts":1354243844561,"patch":[[{"diffs":[[0,"\n\n// I w"],[1,"ant to create the door"]],"start1":389,"start2":389,"length1":8,"length2":30}]],"length":419,"saved":false}
+{"ts":1354243845662,"patch":[[{"diffs":[[0,"ate the door"],[1,"s\n\n"]],"start1":407,"start2":407,"length1":12,"length2":15}]],"length":422,"saved":false}
+{"ts":1354243870693,"patch":[[{"diffs":[[0," to "],[-1,"create the doors"],[1,"test to see if ht"],[0,"\n\n"]],"start1":400,"start2":400,"length1":22,"length2":23}]],"length":423,"saved":false}
+{"ts":1354243874423,"patch":[[{"diffs":[[0," if "],[-1,"h"],[0,"t"],[1,"here are doors"],[0,"\n\n"]],"start1":415,"start2":415,"length1":8,"length2":21}]],"length":436,"saved":false}
+{"ts":1354243875648,"patch":[[{"diffs":[[0," doors\n\n"],[1,"\n\n"]],"start1":428,"start2":428,"length1":8,"length2":10}]],"length":438,"saved":false}
+{"ts":1354243884771,"patch":[[{"diffs":[[0," doors\n\n"],[1,"i"],[0,"\n\n"]],"start1":428,"start2":428,"length1":10,"length2":11}]],"length":439,"saved":false}
+{"ts":1354243885932,"patch":[[{"diffs":[[0,"doors\n\ni"],[1,"f "],[0,"\n\n"]],"start1":429,"start2":429,"length1":10,"length2":12}]],"length":441,"saved":false}
+{"ts":1354243895171,"patch":[[{"diffs":[[0,"ors\n\nif "],[1,"(i)"],[0,"\n\n"]],"start1":431,"start2":431,"length1":10,"length2":13}]],"length":444,"saved":false}
+{"ts":1354243896376,"patch":[[{"diffs":[[0,"s\n\nif (i"],[1,"s"],[0,")\n\n"]],"start1":433,"start2":433,"length1":11,"length2":12}]],"length":445,"saved":false}
+{"ts":1354243897461,"patch":[[{"diffs":[[0,"\n\nif (is"],[1,"_ar"],[0,")\n\n"]],"start1":434,"start2":434,"length1":11,"length2":14}]],"length":448,"saved":false}
+{"ts":1354243898745,"patch":[[{"diffs":[[0,"f (is_ar"],[1,"ray"],[0,")\n\n"]],"start1":437,"start2":437,"length1":11,"length2":14}]],"length":451,"saved":false}
+{"ts":1354243901640,"patch":[[{"diffs":[[0,"is_array"],[1," ("],[0,")\n\n"]],"start1":440,"start2":440,"length1":11,"length2":13}]],"length":453,"saved":false}
+{"ts":1354243903912,"patch":[[{"diffs":[[0,"_array ("],[1,"$"],[0,")\n\n"]],"start1":442,"start2":442,"length1":11,"length2":12}]],"length":454,"saved":false}
+{"ts":1354243905355,"patch":[[{"diffs":[[0,"array ($"],[1,"doors"],[0,")\n\n"]],"start1":443,"start2":443,"length1":11,"length2":16}]],"length":459,"saved":false}
+{"ts":1354243909194,"patch":[[{"diffs":[[0,"($doors)"],[1,")\n"],[0,"\n\n"]],"start1":449,"start2":449,"length1":10,"length2":12}]],"length":461,"saved":false}
+{"ts":1354243911463,"patch":[[{"diffs":[[0,"doors))\n"],[1,"ec"],[0,"\n\n"]],"start1":451,"start2":451,"length1":10,"length2":12}]],"length":463,"saved":false}
+{"ts":1354243912764,"patch":[[{"diffs":[[0,"ors))\nec"],[1,"ho "],[0,"\n\n"]],"start1":453,"start2":453,"length1":10,"length2":13}]],"length":466,"saved":false}
+{"ts":1354243913908,"patch":[[{"diffs":[[0,"))\necho "],[1,"''"],[0,"\n\n"]],"start1":456,"start2":456,"length1":10,"length2":12}]],"length":468,"saved":false}
+{"ts":1354243915083,"patch":[[{"diffs":[[0,")\necho '"],[1," t"],[0,"'\n\n"]],"start1":457,"start2":457,"length1":11,"length2":13}]],"length":470,"saved":false}
+{"ts":1354243916397,"patch":[[{"diffs":[[0,"\necho ' "],[-1,"t"],[1,"T"],[0,"'\n\n"]],"start1":458,"start2":458,"length1":12,"length2":12}]],"length":470,"saved":false}
+{"ts":1354243917530,"patch":[[{"diffs":[[0,"echo ' T"],[1,"here"],[0,"'\n\n"]],"start1":459,"start2":459,"length1":11,"length2":15}]],"length":474,"saved":false}
+{"ts":1354243918666,"patch":[[{"diffs":[[0,"ho '"],[-1," There"],[0,"'\n\n"]],"start1":461,"start2":461,"length1":13,"length2":7}]],"length":468,"saved":false}
+{"ts":1354243919794,"patch":[[{"diffs":[[0,")\necho '"],[1,"T"],[0,"'\n\n"]],"start1":457,"start2":457,"length1":11,"length2":12}]],"length":469,"saved":false}
+{"ts":1354243922839,"patch":[[{"diffs":[[0,"\necho 'T"],[1,"here are dor"],[0,"'\n\n"]],"start1":458,"start2":458,"length1":11,"length2":23}]],"length":481,"saved":false}
+{"ts":1354243924076,"patch":[[{"diffs":[[0,"e are do"],[1,"o"],[0,"r'\n\n"]],"start1":469,"start2":469,"length1":12,"length2":13}]],"length":482,"saved":false}
+{"ts":1354243925308,"patch":[[{"diffs":[[0,"are door"],[1,"s"],[0,"'\n\n"]],"start1":471,"start2":471,"length1":11,"length2":12}]],"length":483,"saved":false}
+{"ts":1354243929079,"patch":[[{"diffs":[[0,"e doors'"],[1,";"],[0,"\n\n"]],"start1":473,"start2":473,"length1":10,"length2":11}]],"length":484,"saved":false}
+{"ts":1354243978900,"patch":[[{"diffs":[[0,"oors';\n\n"],[1,"// "]],"start1":476,"start2":476,"length1":8,"length2":11}]],"length":487,"saved":false}
+{"ts":1354243980018,"patch":[[{"diffs":[[0,"doors';\n\n// "],[1,"Su"]],"start1":475,"start2":475,"length1":12,"length2":14}]],"length":489,"saved":false}
+{"ts":1354243982296,"patch":[[{"diffs":[[0,";\n\n// Su"],[1,"c"]],"start1":481,"start2":481,"length1":8,"length2":9}]],"length":490,"saved":false}
+{"ts":1354243984591,"patch":[[{"diffs":[[0,"\n\n// Suc"],[1,"cessf"]],"start1":482,"start2":482,"length1":8,"length2":13}]],"length":495,"saved":false}
+{"ts":1354243986187,"patch":[[{"diffs":[[0,"Successf"],[1,"ul fail"]],"start1":487,"start2":487,"length1":8,"length2":15}]],"length":502,"saved":false}
+{"ts":1354243987430,"patch":[[{"diffs":[[0,"ful fail"],[1,"ure"]],"start1":494,"start2":494,"length1":8,"length2":11}]],"length":505,"saved":false}
+{"ts":1354244123809,"patch":[[{"diffs":[[0," failure"],[1,"\n//"]],"start1":497,"start2":497,"length1":8,"length2":11}]],"length":508,"saved":false}
+{"ts":1354244125005,"patch":[[{"diffs":[[0,"ilure\n//"],[1," "]],"start1":500,"start2":500,"length1":8,"length2":9}]],"length":509,"saved":false}
+{"ts":1354244127344,"patch":[[{"diffs":[[0," failure\n// "],[1,"Pro"]],"start1":497,"start2":497,"length1":12,"length2":15}]],"length":512,"saved":false}
+{"ts":1354244132023,"patch":[[{"diffs":[[0,"e\n// Pro"],[1,"duction code added:"]],"start1":504,"start2":504,"length1":8,"length2":27}]],"length":531,"saved":false}
+{"ts":1354244133212,"patch":[[{"diffs":[[0,"e added:"],[1," "]],"start1":523,"start2":523,"length1":8,"length2":9}]],"length":532,"saved":false}
+{"ts":1354244134448,"patch":[[{"diffs":[[0," added: "],[1,"Su"]],"start1":524,"start2":524,"length1":8,"length2":10}]],"length":534,"saved":false}
+{"ts":1354244135687,"patch":[[{"diffs":[[0,"dded: Su"],[1,"ccessf"]],"start1":526,"start2":526,"length1":8,"length2":14}]],"length":540,"saved":false}
+{"ts":1354244137808,"patch":[[{"diffs":[[0," added: Successf"],[1,"ul test\n"]],"start1":524,"start2":524,"length1":16,"length2":24}]],"length":548,"saved":false}
+{"ts":1354244138963,"patch":[[{"diffs":[[0,"ul test\n"],[1,"\n\n"]],"start1":540,"start2":540,"length1":8,"length2":10}]],"length":550,"saved":false}
+{"ts":1354244142650,"patch":[[{"diffs":[[0," test\n\n\n"],[1,"//"]],"start1":542,"start2":542,"length1":8,"length2":10}]],"length":552,"saved":false}
+{"ts":1354244146119,"patch":[[{"diffs":[[0,"ul test\n\n\n//"],[1," I want "]],"start1":540,"start2":540,"length1":12,"length2":20}]],"length":560,"saved":false}
+{"ts":1354244147694,"patch":[[{"diffs":[[0,"ul test\n\n\n// I want "],[1,"to se"]],"start1":540,"start2":540,"length1":20,"length2":25}]],"length":565,"saved":false}
+{"ts":1354244148856,"patch":[[{"diffs":[[0,"I want to se"],[1,"e h"]],"start1":553,"start2":553,"length1":12,"length2":15}]],"length":568,"saved":false}
+{"ts":1354244156897,"patch":[[{"diffs":[[0,"to see h"],[1,"ow many doors are in the aray\n\n"]],"start1":560,"start2":560,"length1":8,"length2":39}]],"length":599,"saved":false}
+{"ts":1354244158082,"patch":[[{"diffs":[[0,"e aray\n\n"],[1,"if"]],"start1":591,"start2":591,"length1":8,"length2":10}]],"length":601,"saved":false}
+{"ts":1354244161018,"patch":[[{"diffs":[[0,"the aray\n\nif"],[1," "]],"start1":589,"start2":589,"length1":12,"length2":13}]],"length":602,"saved":false}
+{"ts":1354244163480,"patch":[[{"diffs":[[0,"he aray\n\nif "],[1,"()"]],"start1":590,"start2":590,"length1":12,"length2":14}]],"length":604,"saved":false}
+{"ts":1354244167861,"patch":[[{"diffs":[[0,"ay\n\nif ("],[1,"$a"],[0,")"]],"start1":595,"start2":595,"length1":9,"length2":11}]],"length":606,"saved":false}
+{"ts":1354244169122,"patch":[[{"diffs":[[0,"\n\nif ($a"],[1," "],[0,")"]],"start1":597,"start2":597,"length1":9,"length2":10}]],"length":607,"saved":false}
+{"ts":1354244171455,"patch":[[{"diffs":[[0,"\nif ($a "],[1,"<"],[0,")"]],"start1":598,"start2":598,"length1":9,"length2":10}]],"length":608,"saved":false}
+{"ts":1354244172998,"patch":[[{"diffs":[[0,"if ($a <"],[1,"= "],[0,")"]],"start1":599,"start2":599,"length1":9,"length2":11}]],"length":610,"saved":false}
+{"ts":1354244174617,"patch":[[{"diffs":[[0," ($a <= "],[1,"100"],[0,")"]],"start1":601,"start2":601,"length1":9,"length2":12}]],"length":613,"saved":false}
+{"ts":1354244204573,"patch":[[{"diffs":[[0,"if ("],[-1,"$a <= 100)"],[1,"array"]],"start1":599,"start2":599,"length1":14,"length2":9}]],"length":608,"saved":false}
+{"ts":1354244208109,"patch":[[{"diffs":[[0,"y\n\nif (array"],[1," ()"]],"start1":596,"start2":596,"length1":12,"length2":15}]],"length":611,"saved":false}
+{"ts":1354244210741,"patch":[[{"diffs":[[0,"(array ("],[1,"$d"],[0,")"]],"start1":602,"start2":602,"length1":9,"length2":11}]],"length":613,"saved":false}
+{"ts":1354244212457,"patch":[[{"diffs":[[0,"rray ($d"],[1,"oors "],[0,")"]],"start1":604,"start2":604,"length1":9,"length2":14}]],"length":618,"saved":false}
+{"ts":1354244213625,"patch":[[{"diffs":[[0,"($doors "],[1,"<"],[0,")"]],"start1":609,"start2":609,"length1":9,"length2":10}]],"length":619,"saved":false}
+{"ts":1354244214950,"patch":[[{"diffs":[[0,"$doors <"],[1,"=1"],[0,")"]],"start1":610,"start2":610,"length1":9,"length2":11}]],"length":621,"saved":false}
+{"ts":1354244216164,"patch":[[{"diffs":[[0,"oors <=1"],[1,"00"],[0,")"]],"start1":612,"start2":612,"length1":9,"length2":11}]],"length":623,"saved":false}
+{"ts":1354244217723,"patch":[[{"diffs":[[0,"rs <=100"],[1," "],[0,")"]],"start1":614,"start2":614,"length1":9,"length2":10}]],"length":624,"saved":false}
+{"ts":1354244221344,"patch":[[{"diffs":[[0," <=100 )"],[1,")"]],"start1":616,"start2":616,"length1":8,"length2":9}]],"length":625,"saved":false}
+{"ts":1354244227618,"patch":[[{"diffs":[[0,"<=100 ))"],[1,"\necho"]],"start1":617,"start2":617,"length1":8,"length2":13}]],"length":630,"saved":false}
+{"ts":1354244228921,"patch":[[{"diffs":[[0,"=100 ))\necho"],[1," ''"]],"start1":618,"start2":618,"length1":12,"length2":15}]],"length":633,"saved":false}
+{"ts":1354244230096,"patch":[[{"diffs":[[0,")\necho '"],[1,"T"],[0,"'"]],"start1":624,"start2":624,"length1":9,"length2":10}]],"length":634,"saved":false}
+{"ts":1354244231686,"patch":[[{"diffs":[[0,"\necho 'T"],[1,"here"],[0,"'"]],"start1":625,"start2":625,"length1":9,"length2":13}]],"length":638,"saved":false}
+{"ts":1354244237177,"patch":[[{"diffs":[[0,"o 'There"],[1," are 1"],[0,"'"]],"start1":629,"start2":629,"length1":9,"length2":15}]],"length":644,"saved":false}
+{"ts":1354244240129,"patch":[[{"diffs":[[0,"re are 1"],[1,"00 doors"],[0,"'"]],"start1":635,"start2":635,"length1":9,"length2":17}]],"length":652,"saved":false}
+{"ts":1354244242122,"patch":[[{"diffs":[[0,"re 100 doors"],[1,"."],[0,"'"]],"start1":639,"start2":639,"length1":13,"length2":14}]],"length":653,"saved":false}
+{"ts":1354244251552,"patch":[[{"diffs":[[0," doors.'"],[1,";"]],"start1":645,"start2":645,"length1":8,"length2":9}]],"length":654,"saved":false}
+{"ts":1354244259262,"patch":[[{"diffs":[[0,"00 doors"],[-1,"."],[0,"';"]],"start1":643,"start2":643,"length1":11,"length2":10}]],"length":653,"saved":false}
+{"ts":1354244265901,"patch":[[{"diffs":[[0," are 100 doors';"],[1,"\n\n"]],"start1":637,"start2":637,"length1":16,"length2":18}]],"length":655,"saved":false}
+{"ts":1354244267255,"patch":[[{"diffs":[[0,"re 100 doors';\n\n"],[1,"// "]],"start1":639,"start2":639,"length1":16,"length2":19}]],"length":658,"saved":false}
+{"ts":1354244268448,"patch":[[{"diffs":[[0,"are 100 doors';\n\n// "],[1,"I "]],"start1":638,"start2":638,"length1":20,"length2":22}]],"length":660,"saved":false}
+{"ts":1354244271245,"patch":[[{"diffs":[[0,"0 doors';\n\n// I "],[1,"want to "]],"start1":644,"start2":644,"length1":16,"length2":24}]],"length":668,"saved":false}
+{"ts":1354244322007,"patch":[[{"diffs":[[0,"0 doors';\n\n// I want to "],[1,"test if all the door"]],"start1":644,"start2":644,"length1":24,"length2":44}]],"length":688,"saved":false}
+{"ts":1354244323191,"patch":[[{"diffs":[[0,"all the door"],[1,"s are"]],"start1":676,"start2":676,"length1":12,"length2":17}]],"length":693,"saved":false}
+{"ts":1354244325359,"patch":[[{"diffs":[[0,"ll the doors are"],[1," closed"]],"start1":677,"start2":677,"length1":16,"length2":23}]],"length":700,"saved":false}
+{"ts":1354244328021,"patch":[[{"diffs":[[0,"s are closed"],[1,"\n\n"]],"start1":688,"start2":688,"length1":12,"length2":14}]],"length":702,"saved":false}
+{"ts":1354244333231,"patch":[[{"diffs":[[0,"closed\n\n"],[1,"if (array)"]],"start1":694,"start2":694,"length1":8,"length2":18}]],"length":712,"saved":false}
+{"ts":1354244334847,"patch":[[{"diffs":[[0,"f (array"],[1," ("],[0,")"]],"start1":703,"start2":703,"length1":9,"length2":11}]],"length":714,"saved":false}
+{"ts":1354244336206,"patch":[[{"diffs":[[0,"(array ("],[1,"$do"],[0,")"]],"start1":705,"start2":705,"length1":9,"length2":12}]],"length":717,"saved":false}
+{"ts":1354244337407,"patch":[[{"diffs":[[0,"ray ($do"],[1,"ors"],[0,")"]],"start1":708,"start2":708,"length1":9,"length2":12}]],"length":720,"saved":false}
+{"ts":1354244342866,"patch":[[{"diffs":[[0,"d\n\nif (array ($doors"],[1," ="],[0,")"]],"start1":699,"start2":699,"length1":21,"length2":23}]],"length":722,"saved":false}
+{"ts":1354244344087,"patch":[[{"diffs":[[0,"($doors "],[1,"="],[0,"=)"]],"start1":712,"start2":712,"length1":10,"length2":11}]],"length":723,"saved":false}
+{"ts":1354244345860,"patch":[[{"diffs":[[0,"doors =="],[1," 'clo"],[0,")"]],"start1":714,"start2":714,"length1":9,"length2":14}]],"length":728,"saved":false}
+{"ts":1354244347091,"patch":[[{"diffs":[[0," == 'clo"],[1,"ed"],[0,")"]],"start1":719,"start2":719,"length1":9,"length2":11}]],"length":730,"saved":false}
+{"ts":1354244348509,"patch":[[{"diffs":[[0," == 'clo"],[-1,"ed"],[0,")"]],"start1":719,"start2":719,"length1":11,"length2":9}]],"length":728,"saved":false}
+{"ts":1354244349811,"patch":[[{"diffs":[[0," == 'clo"],[1,"d"],[0,")"]],"start1":719,"start2":719,"length1":9,"length2":10}]],"length":729,"saved":false}
+{"ts":1354244351235,"patch":[[{"diffs":[[0," == 'clo"],[1,"se"],[0,"d)"]],"start1":719,"start2":719,"length1":10,"length2":12}]],"length":731,"saved":false}
+{"ts":1354244352486,"patch":[[{"diffs":[[0," 'closed"],[1,"'"],[0,")"]],"start1":722,"start2":722,"length1":9,"length2":10}]],"length":732,"saved":false}
+{"ts":1354244358407,"patch":[[{"diffs":[[0,"closed')"],[1,")"]],"start1":724,"start2":724,"length1":8,"length2":9}]],"length":733,"saved":false}
+{"ts":1354244376878,"patch":[[{"diffs":[[0,"losed'))"],[1,"\necho"]],"start1":725,"start2":725,"length1":8,"length2":13}]],"length":738,"saved":false}
+{"ts":1354244378346,"patch":[[{"diffs":[[0,"osed'))\necho"],[1," "]],"start1":726,"start2":726,"length1":12,"length2":13}]],"length":739,"saved":false}
+{"ts":1354244380177,"patch":[[{"diffs":[[0,"'closed'))\necho "],[1,"' '"]],"start1":723,"start2":723,"length1":16,"length2":19}]],"length":742,"saved":false}
+{"ts":1354244381355,"patch":[[{"diffs":[[0,")\necho '"],[-1," '"]],"start1":732,"start2":732,"length1":10,"length2":8}]],"length":740,"saved":false}
+{"ts":1354244386963,"patch":[[{"diffs":[[0,"closed'))\necho '"],[1,"These doors are clos"]],"start1":724,"start2":724,"length1":16,"length2":36}]],"length":760,"saved":false}
+{"ts":1354244388253,"patch":[[{"diffs":[[0,"ho 'These doors are clos"],[1,"ed"]],"start1":736,"start2":736,"length1":24,"length2":26}]],"length":762,"saved":false}
+{"ts":1354244389619,"patch":[[{"diffs":[[0," 'These doors are closed"],[1,"'"]],"start1":738,"start2":738,"length1":24,"length2":25}]],"length":763,"saved":false}
+{"ts":1354244391161,"patch":[[{"diffs":[[0," are closed'"],[1,";"]],"start1":751,"start2":751,"length1":12,"length2":13}]],"length":764,"saved":false}
+{"ts":1354244409160,"patch":[[{"diffs":[[0,"closed';"],[1,"\n\n"]],"start1":756,"start2":756,"length1":8,"length2":10}]],"length":766,"saved":false}
+{"ts":1354244415145,"patch":[[{"diffs":[[0,"e closed';\n\n"],[1,"I want to "]],"start1":754,"start2":754,"length1":12,"length2":22}]],"length":776,"saved":false}
+{"ts":1354244426443,"patch":[[{"diffs":[[0,"ed';\n\nI want to "],[1,"find all "]],"start1":760,"start2":760,"length1":16,"length2":25}]],"length":785,"saved":false}
+{"ts":1354244430100,"patch":[[{"diffs":[[0,"to find all "],[1,"the even doors"]],"start1":773,"start2":773,"length1":12,"length2":26}]],"length":799,"saved":false}
+{"ts":1354244432586,"patch":[[{"diffs":[[0,"e even doors"],[1,"\n\n"]],"start1":787,"start2":787,"length1":12,"length2":14}]],"length":801,"saved":false}
+{"ts":1354244437346,"patch":[[{"diffs":[[0,"osed';\n\n"],[1,"//"],[0,"I want t"]],"start1":758,"start2":758,"length1":16,"length2":18}]],"length":803,"saved":false}
+{"ts":1354244438972,"patch":[[{"diffs":[[0,"ed';\n\n//"],[1," "],[0,"I want t"]],"start1":760,"start2":760,"length1":16,"length2":17}]],"length":804,"saved":false}
+{"ts":1354244445523,"patch":[[{"diffs":[[0,"the even doors\n\n"],[1,"if "]],"start1":788,"start2":788,"length1":16,"length2":19}]],"length":807,"saved":false}
+{"ts":1354244447347,"patch":[[{"diffs":[[0," even doors\n\nif "],[1,"()"]],"start1":791,"start2":791,"length1":16,"length2":18}]],"length":809,"saved":false}
+{"ts":1354244449618,"patch":[[{"diffs":[[0,"rs\n\nif ("],[1,"$doors "],[0,")"]],"start1":800,"start2":800,"length1":9,"length2":16}]],"length":816,"saved":false}
+{"ts":1354244451037,"patch":[[{"diffs":[[0," ($doors"],[1," %"],[0," )"]],"start1":806,"start2":806,"length1":10,"length2":12}]],"length":818,"saved":false}
+{"ts":1354244452971,"patch":[[{"diffs":[[0,"$doors %"],[1," 2"],[0," )"]],"start1":808,"start2":808,"length1":10,"length2":12}]],"length":820,"saved":false}
+{"ts":1354244454624,"patch":[[{"diffs":[[0,"rs % 2 )"],[1,"\n"]],"start1":812,"start2":812,"length1":8,"length2":9}]],"length":821,"saved":false}
+{"ts":1354244455862,"patch":[[{"diffs":[[0,"s % 2 )\n"],[1,"{\n    "]],"start1":813,"start2":813,"length1":8,"length2":14}]],"length":827,"saved":false}
+{"ts":1354244457646,"patch":[[{"diffs":[[0,")\n{\n    "],[1,"e"]],"start1":819,"start2":819,"length1":8,"length2":9}]],"length":828,"saved":false}
+{"ts":1354244459030,"patch":[[{"diffs":[[0,"\n{\n    e"],[1,"c"]],"start1":820,"start2":820,"length1":8,"length2":9}]],"length":829,"saved":false}
+{"ts":1354244525367,"patch":[[{"diffs":[[0,"rs % 2 )"],[1," == 0"],[0,"\n{\n    e"]],"start1":812,"start2":812,"length1":16,"length2":21},{"diffs":[[0,"{\n    ec"],[1,"ho 'This number is "]],"start1":826,"start2":826,"length1":8,"length2":27}]],"length":853,"saved":false}
+{"ts":1354244526630,"patch":[[{"diffs":[[0,"mber is "],[1,"eve"]],"start1":845,"start2":845,"length1":8,"length2":11}]],"length":856,"saved":false}
+{"ts":1354244528264,"patch":[[{"diffs":[[0,"umber is eve"],[1,"n"]],"start1":844,"start2":844,"length1":12,"length2":13}]],"length":857,"saved":false}
+{"ts":1354244529731,"patch":[[{"diffs":[[0,"mber is even"],[1,"'\n    "]],"start1":845,"start2":845,"length1":12,"length2":18}]],"length":863,"saved":false}
+{"ts":1354244539036,"patch":[[{"diffs":[[0,"s\n\nif ($"],[-1,"doors"],[1,"a"],[0," % 2 ) ="]],"start1":801,"start2":801,"length1":21,"length2":17}]],"length":859,"saved":false}
+{"ts":1354244576581,"patch":[[{"diffs":[[0,"s even'\n"],[-1,"    "],[1,"}\n"]],"start1":847,"start2":847,"length1":12,"length2":10}]],"length":857,"saved":false}
+{"ts":1354244580829,"patch":[[{"diffs":[[0,"even'\n}\n"],[1,"else"]],"start1":849,"start2":849,"length1":8,"length2":12}]],"length":861,"saved":false}
+{"ts":1354244581956,"patch":[[{"diffs":[[0,"'\n}\nelse"],[1," "]],"start1":853,"start2":853,"length1":8,"length2":9}]],"length":862,"saved":false}
+{"ts":1354244591579,"patch":[[{"diffs":[[0,"\n}\nelse "],[1,"\n"]],"start1":854,"start2":854,"length1":8,"length2":9}]],"length":863,"saved":false}
+{"ts":1354244592752,"patch":[[{"diffs":[[0,"}\nelse \n"],[1,"{"]],"start1":855,"start2":855,"length1":8,"length2":9}]],"length":864,"saved":false}
+{"ts":1354244594714,"patch":[[{"diffs":[[0,"\nelse \n{"],[1," "]],"start1":856,"start2":856,"length1":8,"length2":9}]],"length":865,"saved":false}
+{"ts":1354244595917,"patch":[[{"diffs":[[0,"else \n{ "],[1,"\n    "]],"start1":857,"start2":857,"length1":8,"length2":13}]],"length":870,"saved":false}
+{"ts":1354244602765,"patch":[[{"diffs":[[0,"lse \n{ \n    "],[1,"e"]],"start1":858,"start2":858,"length1":12,"length2":13}]],"length":871,"saved":false}
+{"ts":1354244604069,"patch":[[{"diffs":[[0,"se \n{ \n    e"],[1,"ch"]],"start1":859,"start2":859,"length1":12,"length2":14}]],"length":873,"saved":false}
+{"ts":1354244605436,"patch":[[{"diffs":[[0,"else \n{ \n    ech"],[1,"o ''"]],"start1":857,"start2":857,"length1":16,"length2":20}]],"length":877,"saved":false}
+{"ts":1354244606658,"patch":[[{"diffs":[[0,"  echo '"],[1,"T"],[0,"'"]],"start1":868,"start2":868,"length1":9,"length2":10}]],"length":878,"saved":false}
+{"ts":1354244607870,"patch":[[{"diffs":[[0," echo 'T"],[1,"his "],[0,"'"]],"start1":869,"start2":869,"length1":9,"length2":13}]],"length":882,"saved":false}
+{"ts":1354244610548,"patch":[[{"diffs":[[0,"o 'This "],[1,"number is o"],[0,"'"]],"start1":873,"start2":873,"length1":9,"length2":20}]],"length":893,"saved":false}
+{"ts":1354244611884,"patch":[[{"diffs":[[0,"ber is o"],[1,"dd"],[0,"'"]],"start1":884,"start2":884,"length1":9,"length2":11}]],"length":895,"saved":false}
+{"ts":1354244631431,"patch":[[{"diffs":[[0," echo 'This "],[-1,"numbe"],[1,"doo"],[0,"r is even'\n}"]],"start1":827,"start2":827,"length1":29,"length2":27}]],"length":893,"saved":false}
+{"ts":1354244637329,"patch":[[{"diffs":[[0," is even"],[1," and is c"],[0,"'\n}\nelse"]],"start1":843,"start2":843,"length1":16,"length2":25}]],"length":902,"saved":false}
+{"ts":1354244639072,"patch":[[{"diffs":[[0,"and is c"],[1,"losed"],[0,"'\n}\nelse"]],"start1":852,"start2":852,"length1":16,"length2":21}]],"length":907,"saved":false}
+{"ts":1354244654957,"patch":[[{"diffs":[[0,"r is odd"],[1," and i"],[0,"'"]],"start1":898,"start2":898,"length1":9,"length2":15}]],"length":913,"saved":false}
+{"ts":1354244656931,"patch":[[{"diffs":[[0,"dd and i"],[1,"s open"],[0,"'"]],"start1":904,"start2":904,"length1":9,"length2":15}]],"length":919,"saved":false}
+{"ts":1354244659740,"patch":[[{"diffs":[[0,"is open'"],[1,"\n    "]],"start1":911,"start2":911,"length1":8,"length2":13}]],"length":924,"saved":false}
+{"ts":1354244660994,"patch":[[{"diffs":[[0,"s open'\n"],[-1,"    "],[1,"}"]],"start1":912,"start2":912,"length1":12,"length2":9}]],"length":921,"saved":false}
+{"ts":1354244672124,"patch":[[{"diffs":[[0," closed'"],[1,"[]"],[0,"\n}\nelse "]],"start1":858,"start2":858,"length1":16,"length2":18}]],"length":923,"saved":false}
+{"ts":1354244673270,"patch":[[{"diffs":[[0,"sed'"],[-1,"[]"],[0,"\n}\ne"]],"start1":862,"start2":862,"length1":10,"length2":8}]],"length":921,"saved":false}
+{"ts":1354244674563,"patch":[[{"diffs":[[0," closed'"],[1,";"],[0,"\n}\nelse "]],"start1":858,"start2":858,"length1":16,"length2":17}]],"length":922,"saved":false}
+{"ts":1354244677231,"patch":[[{"diffs":[[0,"is open'"],[1,";"],[0,"\n}"]],"start1":912,"start2":912,"length1":10,"length2":11}]],"length":923,"saved":false}
+{"ts":1354244691378,"patch":[[{"diffs":[[0," ($a % 2"],[-1," )"],[0," == 0\n{\n"]],"start1":806,"start2":806,"length1":18,"length2":16}]],"length":921,"saved":false}
+{"ts":1354244694856,"patch":[[{"diffs":[[0,"% 2 == 0"],[1,")"],[0,"\n{\n    e"]],"start1":811,"start2":811,"length1":16,"length2":17}]],"length":922,"saved":false}
+{"ts":1354244707701,"patch":[[{"diffs":[[0," is open';\n}"],[1,"\n\n//"]],"start1":910,"start2":910,"length1":12,"length2":16}]],"length":926,"saved":false}
+{"ts":1354244709029,"patch":[[{"diffs":[[0,"open';\n}\n\n//"],[1," "]],"start1":914,"start2":914,"length1":12,"length2":13}]],"length":927,"saved":false}
+{"ts":1354244710382,"patch":[[{"diffs":[[0,"pen';\n}\n\n// "],[1,"Su"]],"start1":915,"start2":915,"length1":12,"length2":14}]],"length":929,"saved":false}
+{"ts":1354244711585,"patch":[[{"diffs":[[0,"n';\n}\n\n// Su"],[1,"ccess"]],"start1":917,"start2":917,"length1":12,"length2":17}]],"length":934,"saved":false}
+{"ts":1354244712961,"patch":[[{"diffs":[[0,"open';\n}\n\n// Success"],[1,"ful"]],"start1":914,"start2":914,"length1":20,"length2":23}]],"length":937,"saved":false}
+{"ts":1354244714167,"patch":[[{"diffs":[[0,"n';\n}\n\n// Successful"],[1," fai"]],"start1":917,"start2":917,"length1":20,"length2":24}]],"length":941,"saved":false}
+{"ts":1354244716569,"patch":[[{"diffs":[[0,"n';\n}\n\n// Successful fai"],[1,"lure nee"]],"start1":917,"start2":917,"length1":24,"length2":32}]],"length":949,"saved":false}
+{"ts":1354244718512,"patch":[[{"diffs":[[0,"lure nee"],[1,"d"]],"start1":941,"start2":941,"length1":8,"length2":9}]],"length":950,"saved":false}
+{"ts":1354244719933,"patch":[[{"diffs":[[0,"ure need"],[1," to cre"]],"start1":942,"start2":942,"length1":8,"length2":15}]],"length":957,"saved":false}
+{"ts":1354244721871,"patch":[[{"diffs":[[0,"d to cre"],[1,"ate "]],"start1":949,"start2":949,"length1":8,"length2":12}]],"length":961,"saved":false}
+{"ts":1354244723536,"patch":[[{"diffs":[[0,"d to create "],[1,"$"]],"start1":949,"start2":949,"length1":12,"length2":13}]],"length":962,"saved":false}
+{"ts":1354244725067,"patch":[[{"diffs":[[0,"create $"],[1,"a"]],"start1":954,"start2":954,"length1":8,"length2":9}]],"length":963,"saved":false}
+{"ts":1354244731046,"patch":[[{"diffs":[[0," create "],[1,"variable "],[0,"$a"]],"start1":953,"start2":953,"length1":10,"length2":19}]],"length":972,"saved":false}
