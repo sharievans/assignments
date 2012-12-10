@@ -13,3 +13,7 @@ function test ($assertion, $message = null)
 
 // Failing test: Does the class Calculator exist?
 $calculator = new Calculator;
+
+
+//Failing test for first addition attempt
+test ($calculator-> add (1,1) == 2, '1 + 1 == 2');
