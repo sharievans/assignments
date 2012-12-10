@@ -79,3 +79,16 @@
 {"ts":1352343199565,"patch":[[{"diffs":[[0,";\n \n"],[-1," echo \"This added well\";\n \n"],[0,"}"]],"start1":39,"start2":39,"length1":32,"length2":5}]],"length":44,"saved":false}
 {"ts":1352343255846,"patch":[[{"diffs":[[0,", $b)\n{\n"],[1," return"],[0," $a + $b"]],"start1":23,"start2":23,"length1":16,"length2":23}]],"length":51,"saved":false}
 {"contributors":[],"silentsave":true,"ts":1355103274017,"patch":[[{"diffs":[[-1,"<?php\n\nfunction add ($a, $b)\n{\n return $a + $b;\n \n}"]],"start1":0,"start2":0,"length1":51,"length2":0}]],"length":0,"saved":false}
+{"ts":1355104706528,"patch":[[{"diffs":[[1,"//"]],"start1":0,"start2":0,"length1":0,"length2":2}]],"length":2,"saved":false}
+{"ts":1355104713691,"patch":[[{"diffs":[[0,"//"],[1,"Time to create the Calculator"]],"start1":0,"start2":0,"length1":2,"length2":31}]],"length":31,"saved":false}
+{"ts":1355104714797,"patch":[[{"diffs":[[0,"lculator"],[1,"\n\n"]],"start1":23,"start2":23,"length1":8,"length2":10}]],"length":33,"saved":false}
+{"ts":1355104717935,"patch":[[{"diffs":[[1,"\n\n"],[0,"//Time t"]],"start1":0,"start2":0,"length1":8,"length2":10}]],"length":35,"saved":false}
+{"ts":1355104722617,"patch":[[{"diffs":[[1,"<?php"],[0,"\n\n//Time"]],"start1":0,"start2":0,"length1":8,"length2":13}]],"length":40,"saved":false}
+{"ts":1355104726871,"patch":[[{"diffs":[[0,"ulator\n\n"],[1,"\n"]],"start1":32,"start2":32,"length1":8,"length2":9}]],"length":41,"saved":false}
+{"ts":1355104729947,"patch":[[{"diffs":[[0,"ulator\n\n"],[1,"class Cal"],[0,"\n"]],"start1":32,"start2":32,"length1":9,"length2":18}]],"length":50,"saved":false}
+{"ts":1355104732580,"patch":[[{"diffs":[[0,"lass Cal"],[1,"culato"],[0,"\n"]],"start1":41,"start2":41,"length1":9,"length2":15}]],"length":56,"saved":false}
+{"ts":1355104735307,"patch":[[{"diffs":[[0,"alculato"],[1,"r"],[0,"\n"]],"start1":47,"start2":47,"length1":9,"length2":10}]],"length":57,"saved":false}
+{"ts":1355104741107,"patch":[[{"diffs":[[0,"r\n\nclass Calculator\n"],[1,"\n"]],"start1":37,"start2":37,"length1":20,"length2":21}]],"length":58,"saved":false}
+{"ts":1355104742308,"patch":[[{"diffs":[[0,"r\n\nclass Calculator\n"],[1,"{\n    "],[0,"\n"]],"start1":37,"start2":37,"length1":21,"length2":27}]],"length":64,"saved":false}
+{"ts":1355104744159,"patch":[[{"diffs":[[0,"\n{\n    \n"],[1,"    \n"]],"start1":56,"start2":56,"length1":8,"length2":13}]],"length":69,"saved":false}
+{"ts":1355104745421,"patch":[[{"diffs":[[0,"\n{\n    \n"],[-1,"    "],[1,"}"],[0,"\n"]],"start1":56,"start2":56,"length1":13,"length2":10}]],"length":66,"saved":false}
