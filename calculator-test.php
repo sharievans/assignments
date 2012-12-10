@@ -17,3 +17,13 @@ $calculator = new Calculator;
 
 //Failing test for first addition attempt function add does't exist
 test ($calculator-> add (1,1) == 2, '1 + 1 == 2');
+
+//Testing the next equations
+test ($calculator-> add (1,0) == 1, '1 + 0 == 1');
+test ($calculator-> add (0,0) == 0, '0 + 0 == 0');
+test ($calculator-> add (1,-1) == 0, '1 + -1 == 0');
+test ($calculator-> add (0,-1) == -1, '0 + -1 == -1');
+test ($calculator-> add (-1,-1) == -2, '-1 + -1 == -2');
+
+//I want to apply some false statements
+test ($calculator-> add (1,0) == 2, '1 + 0 == 2');
