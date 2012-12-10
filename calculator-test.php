@@ -15,5 +15,5 @@ function test ($assertion, $message = null)
 $calculator = new Calculator;
 
 
-//Failing test for first addition attempt
+//Failing test for first addition attempt function add does't exist
 test ($calculator-> add (1,1) == 2, '1 + 1 == 2');

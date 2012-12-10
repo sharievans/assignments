@@ -4,5 +4,8 @@
 
 class Calculator
 {
-    
+    function add ($a, $b = null)
+    {
+        return $a + $b;
+    }
 }
