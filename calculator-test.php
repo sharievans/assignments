@@ -31,3 +31,12 @@ test ($calculator-> add (1,0) == 2, '1 + 0 == 2');
 
 //Failing test for subtraction
 test ($calculator-> sub (1,1) == 0, '1 - 1 == 0');
+
+//Testing the next equations
+test ($calculator->sub (1,0) == 1, '1 - 0 ==1');
+test ($calculator->sub (0,0) == 0, '0 - 0 ==0');
+test ($calculator->sub (1,-1) == 2, '1 - -1 == -2');
+test ($calculator->sub (0,-1) == 1, '0 - -1 ==1');
+test ($calculator->sub (-1,-1) == 0, '-1 - -1 =0');
+
+
