@@ -27,3 +27,7 @@ test ($calculator-> add (-1,-1) == -2, '-1 + -1 == -2');
 
 //I want to apply some false statements
 test ($calculator-> add (1,0) == 2, '1 + 0 == 2');
+
+
+//Failing test for subtraction
+test ($calculator-> sub (1,1) == 0, '1 - 1 == 0');
