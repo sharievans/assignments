@@ -8,4 +8,8 @@ class Calculator
     {
         return $a + $b;
     }
+    function sub ($a, $b = null)
+    {
+        return $a - $b;
+    }
 }
