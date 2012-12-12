@@ -39,4 +39,9 @@ test ($calculator->sub (1,-1) == 2, '1 - -1 == -2');
 test ($calculator->sub (0,-1) == 1, '0 - -1 ==1');
 test ($calculator->sub (-1,-1) == 0, '-1 - -1 =0');
 
+//Applying a false statement
+test ($calculator-> sub (1,1) == 2, '1-1 ==2');
+
+
+
 
