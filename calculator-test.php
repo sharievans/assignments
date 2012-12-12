@@ -42,6 +42,9 @@ test ($calculator->sub (-1,-1) == 0, '-1 - -1 =0');
 //Applying a false statement
 test ($calculator-> sub (1,1) == 2, '1-1 ==2');
 
+//Failing test for multiplication
+test ($calculator->mult (1,1) == 1, '1 * 1 == 1');
+
 
 
 
