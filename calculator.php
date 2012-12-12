@@ -12,4 +12,8 @@ class Calculator
     {
         return $a - $b;
     }
+    function mult ($a, $b = null)
+    {
+        return $a * $b;
+    }
 }

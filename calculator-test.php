@@ -45,6 +45,16 @@ test ($calculator-> sub (1,1) == 2, '1-1 ==2');
 //Failing test for multiplication
 test ($calculator->mult (1,1) == 1, '1 * 1 == 1');
 
+//Testing for the next equations
+test ($calculator->mult (1,0) == 0, '1 * 0 == 0');
+test ($calculator->mult (0,0) == 0, '0 * 0 == 0');
+test ($calculator->mult (1,-1) == -1, '1 * -1 == -1');
+test ($calculator->mult (0,-1) == 0, '0 * -1 == 0');
+test ($calculator->mult (-1,-1) == 1, '-1 * -1 == 1');
+
+//false statement
+test ($calculator->mult (1,1) == 2, '1 * 1 ==2');
+
 
 
 
