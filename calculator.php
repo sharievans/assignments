@@ -17,7 +17,15 @@ class Calculator
         return $a * $b;
     }
     function div ($a, $b = null)
-    {
-        return $a / $b;
-    }
+       {
+            if ($b == 0)
+            {
+            return 'you cannot divide by zero';
+            }
+            else 
+            {
+             return $a / $b;
+            }
+        }
 }
+

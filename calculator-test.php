@@ -59,7 +59,7 @@ test ($calculator->mult (1,1) == 2, '1 * 1 ==2');
 test ($calculator-> div (1,1) == 1, '1/1==1');
 
 //Testing for the next equations
-test ($calculator->div (1,0) == null, '1 / 0 == null');
+test ($calculator->div (1,0) == null, 'you cannot divide by zero');
 
 
 

@@ -191,3 +191,94 @@
 {"ts":1355368655916,"patch":[[{"diffs":[[0,"rn $a / "],[1,"$"],[0,"\n    }\n}"]],"start1":318,"start2":318,"length1":16,"length2":17}]],"length":336,"saved":false}
 {"ts":1355368657471,"patch":[[{"diffs":[[0,"n $a / $"],[1,"b"],[0,"\n    }\n}"]],"start1":319,"start2":319,"length1":16,"length2":17}]],"length":337,"saved":false}
 {"ts":1355368659064,"patch":[[{"diffs":[[0," $a / $b"],[1,";"],[0,"\n    }\n}"]],"start1":320,"start2":320,"length1":16,"length2":17}]],"length":338,"saved":false}
+{"ts":1355368984777,"patch":[[{"diffs":[[0,"    }\n}\n"],[1,"\n\n"]],"start1":330,"start2":330,"length1":8,"length2":10}]],"length":340,"saved":false}
+{"ts":1355369000572,"patch":[[{"diffs":[[0,"   }\n}\n\n"],[1,"if"],[0,"\n"]],"start1":331,"start2":331,"length1":9,"length2":11}]],"length":342,"saved":false}
+{"ts":1355369004867,"patch":[[{"diffs":[[0," }\n}\n\nif"],[1," "],[0,"\n"]],"start1":333,"start2":333,"length1":9,"length2":10}]],"length":343,"saved":false}
+{"ts":1355369014019,"patch":[[{"diffs":[[0,"}\n}\n\nif "],[1,"$"],[0,"\n"]],"start1":334,"start2":334,"length1":9,"length2":10}]],"length":344,"saved":false}
+{"ts":1355369016199,"patch":[[{"diffs":[[0,"\n}\n\nif $"],[1,"a "],[0,"\n"]],"start1":335,"start2":335,"length1":9,"length2":11}]],"length":346,"saved":false}
+{"ts":1355369016824,"patch":[[{"diffs":[[0,"\n\nif $a "],[1,"/"],[0,"\n"]],"start1":337,"start2":337,"length1":9,"length2":10}]],"length":347,"saved":false}
+{"ts":1355369017737,"patch":[[{"diffs":[[0,"\nif $a /"],[1," "],[0,"\n"]],"start1":338,"start2":338,"length1":9,"length2":10}]],"length":348,"saved":false}
+{"ts":1355369020126,"patch":[[{"diffs":[[0,"\n}\n\nif $"],[-1,"a / "],[0,"\n"]],"start1":335,"start2":335,"length1":13,"length2":9}]],"length":344,"saved":false}
+{"ts":1355369022529,"patch":[[{"diffs":[[0,"\n}\n\nif $"],[1,"b "],[0,"\n"]],"start1":335,"start2":335,"length1":9,"length2":11}]],"length":346,"saved":false}
+{"ts":1355369025561,"patch":[[{"diffs":[[0,"\n\nif $b "],[1,"="],[0,"\n"]],"start1":337,"start2":337,"length1":9,"length2":10}]],"length":347,"saved":false}
+{"ts":1355369027110,"patch":[[{"diffs":[[0,"\nif $b ="],[1," 0"],[0,"\n"]],"start1":338,"start2":338,"length1":9,"length2":11}]],"length":349,"saved":false}
+{"ts":1355369039886,"patch":[[{"diffs":[[0," $b = 0\n"],[1,"\n"]],"start1":341,"start2":341,"length1":8,"length2":9}]],"length":350,"saved":false}
+{"ts":1355369042363,"patch":[[{"diffs":[[0," $b = 0\n"],[1,"return"],[0,"\n"]],"start1":341,"start2":341,"length1":9,"length2":15}]],"length":356,"saved":false}
+{"ts":1355369046254,"patch":[[{"diffs":[[0,"0\nreturn"],[1," "],[0,"\n"]],"start1":347,"start2":347,"length1":9,"length2":10}]],"length":357,"saved":false}
+{"ts":1355369047529,"patch":[[{"diffs":[[0,"\nreturn "],[1,"''"],[0,"\n"]],"start1":348,"start2":348,"length1":9,"length2":11}]],"length":359,"saved":false}
+{"ts":1355369048815,"patch":[[{"diffs":[[0,"return '"],[1,"you"],[0,"'\n"]],"start1":349,"start2":349,"length1":10,"length2":13}]],"length":362,"saved":false}
+{"ts":1355369050231,"patch":[[{"diffs":[[0,"urn 'you"],[1," cann"],[0,"'\n"]],"start1":352,"start2":352,"length1":10,"length2":15}]],"length":367,"saved":false}
+{"ts":1355369051000,"patch":[[{"diffs":[[0,"you cann"],[1,"o"],[0,"'\n"]],"start1":357,"start2":357,"length1":10,"length2":11}]],"length":368,"saved":false}
+{"ts":1355369053344,"patch":[[{"diffs":[[0,"ou canno"],[1,"t divide "],[0,"'\n"]],"start1":358,"start2":358,"length1":10,"length2":19}]],"length":377,"saved":false}
+{"ts":1355369054539,"patch":[[{"diffs":[[0," divide "],[1,"by "],[0,"'\n"]],"start1":367,"start2":367,"length1":10,"length2":13}]],"length":380,"saved":false}
+{"ts":1355369055317,"patch":[[{"diffs":[[0,"vide by "],[1,"z"],[0,"'\n"]],"start1":370,"start2":370,"length1":10,"length2":11}]],"length":381,"saved":false}
+{"ts":1355369056864,"patch":[[{"diffs":[[0,"ide by z"],[1,"ero"],[0,"'\n"]],"start1":371,"start2":371,"length1":10,"length2":13}]],"length":384,"saved":false}
+{"ts":1355369060088,"patch":[[{"diffs":[[0,"y zero'\n"],[1,"\n\n"]],"start1":376,"start2":376,"length1":8,"length2":10}]],"length":386,"saved":false}
+{"ts":1355369075439,"patch":[[{"diffs":[[0,"rn $a / $b;\n"],[1,"        \n"],[0,"    }\n}\n\nif "]],"start1":318,"start2":318,"length1":24,"length2":33}]],"length":395,"saved":false}
+{"ts":1355369077198,"patch":[[{"diffs":[[0,"        "],[1,"{\n            \n        }"],[0,"\n    }\n}"]],"start1":330,"start2":330,"length1":16,"length2":40}]],"length":419,"saved":false}
+{"ts":1355369081251,"patch":[[{"diffs":[[0,"        "],[1,"if "],[0,"\n       "]],"start1":344,"start2":344,"length1":16,"length2":19}]],"length":422,"saved":false}
+{"ts":1355369084844,"patch":[[{"diffs":[[0,"     if "],[1,"$b"],[0,"\n       "]],"start1":347,"start2":347,"length1":16,"length2":18}]],"length":424,"saved":false}
+{"ts":1355369086673,"patch":[[{"diffs":[[0,"   if $b"],[1," "],[0,"\n       "]],"start1":349,"start2":349,"length1":16,"length2":17}]],"length":425,"saved":false}
+{"ts":1355369088713,"patch":[[{"diffs":[[0,"  if $b "],[1,"=="],[0,"\n       "]],"start1":350,"start2":350,"length1":16,"length2":18}]],"length":427,"saved":false}
+{"ts":1355369091061,"patch":[[{"diffs":[[0," if $b ="],[-1,"="],[0,"\n       "]],"start1":351,"start2":351,"length1":17,"length2":16}]],"length":426,"saved":false}
+{"ts":1355369095166,"patch":[[{"diffs":[[0," if $b ="],[1," 0"],[0,"\n       "]],"start1":351,"start2":351,"length1":16,"length2":18}]],"length":428,"saved":false}
+{"ts":1355369100327,"patch":[[{"diffs":[[0," $b = 0\n"],[1,"            \n"],[0,"        "]],"start1":354,"start2":354,"length1":16,"length2":29}]],"length":441,"saved":false}
+{"ts":1355369103611,"patch":[[{"diffs":[[0,"        "],[1,"{"],[0,"\n       "]],"start1":366,"start2":366,"length1":16,"length2":17}]],"length":442,"saved":false}
+{"ts":1355369111207,"patch":[[{"diffs":[[0,"f $b = 0"],[1,";"],[0,"\n       "]],"start1":353,"start2":353,"length1":16,"length2":17}]],"length":443,"saved":false}
+{"ts":1355369116112,"patch":[[{"diffs":[[0,"b = "],[-1,"0;"],[0,"\n   "]],"start1":356,"start2":356,"length1":10,"length2":8}]],"length":441,"saved":false}
+{"ts":1355369117359,"patch":[[{"diffs":[[0," if $b ="],[-1," "],[1,"="],[0,"\n       "]],"start1":351,"start2":351,"length1":17,"length2":17}]],"length":441,"saved":false}
+{"ts":1355369118701,"patch":[[{"diffs":[[0,"if $b =="],[1," "],[0,"\n       "]],"start1":352,"start2":352,"length1":16,"length2":17}]],"length":442,"saved":false}
+{"ts":1355369119903,"patch":[[{"diffs":[[0,"f $b == "],[1,"0"],[0,"\n       "]],"start1":353,"start2":353,"length1":16,"length2":17}]],"length":443,"saved":false}
+{"ts":1355369146403,"patch":[[{"diffs":[[0," if $b ="],[-1,"= 0"],[0,"\n       "]],"start1":351,"start2":351,"length1":19,"length2":16}]],"length":440,"saved":false}
+{"ts":1355369147901,"patch":[[{"diffs":[[0," if $b ="],[1," 0"],[0,"\n       "]],"start1":351,"start2":351,"length1":16,"length2":18}]],"length":442,"saved":false}
+{"ts":1355369155481,"patch":[[{"diffs":[[0,"$b;\n"],[-1,"        {\n            if $b = 0\n            {\n        }\n"],[0,"    "]],"start1":326,"start2":326,"length1":64,"length2":8}]],"length":386,"saved":false}
+{"ts":1355369174980,"patch":[[{"diffs":[[0,"\n}\n\n"],[-1,"if $b = 0\nreturn 'you cannot divide by zero'\n\n"],[0,"\n"]],"start1":335,"start2":335,"length1":51,"length2":5}]],"length":340,"saved":false}
+{"ts":1355369175821,"patch":[[{"diffs":[[0,"   }\n}\n\n"],[-1,"\n"]],"start1":331,"start2":331,"length1":9,"length2":8}]],"length":339,"saved":false}
+{"ts":1355369181117,"patch":[[{"diffs":[[0,";\n    }\n"],[1,"    \n"],[0,"}\n\n"]],"start1":328,"start2":328,"length1":11,"length2":16}]],"length":344,"saved":false}
+{"ts":1355369204393,"patch":[[{"diffs":[[0,"  }\n    "],[1,"{"],[0,"\n}\n\n"]],"start1":332,"start2":332,"length1":12,"length2":13}]],"length":345,"saved":false}
+{"ts":1355369205985,"patch":[[{"diffs":[[0,"  }\n    "],[-1,"{"],[0,"\n}\n\n"]],"start1":332,"start2":332,"length1":13,"length2":12}]],"length":344,"saved":false}
+{"ts":1355369208292,"patch":[[{"diffs":[[0,";\n    }\n"],[-1,"    "],[1,"}"],[0,"\n}\n\n"]],"start1":328,"start2":328,"length1":16,"length2":13}]],"length":341,"saved":false}
+{"ts":1355369209792,"patch":[[{"diffs":[[0,"\n    }\n}"],[-1,"\n}"],[0,"\n\n"]],"start1":329,"start2":329,"length1":12,"length2":10}]],"length":339,"saved":false}
+{"ts":1355369227115,"patch":[[{"diffs":[[0,"rn $a / $b;\n"],[1,"        \n"],[0,"    }\n}\n\n"]],"start1":318,"start2":318,"length1":21,"length2":30}]],"length":348,"saved":false}
+{"ts":1355369228817,"patch":[[{"diffs":[[0,"$b;\n    "],[-1,"    "],[0,"\n    }\n}"]],"start1":326,"start2":326,"length1":20,"length2":16}]],"length":344,"saved":false}
+{"ts":1355369229725,"patch":[[{"diffs":[[0,"$b;\n"],[-1,"    \n"],[0,"    "]],"start1":326,"start2":326,"length1":13,"length2":8}]],"length":339,"saved":false}
+{"ts":1355369231837,"patch":[[{"diffs":[[0,"rn $a / $b;\n"],[1,"        \n"],[0,"    }\n}\n\n"]],"start1":318,"start2":318,"length1":21,"length2":30}]],"length":348,"saved":false}
+{"ts":1355369232956,"patch":[[{"diffs":[[0,"        "],[1,"{"],[0,"\n    }\n}"]],"start1":330,"start2":330,"length1":16,"length2":17}]],"length":349,"saved":false}
+{"ts":1355369235427,"patch":[[{"diffs":[[0,";\n        {\n"],[1,"            \n        }\n"],[0,"    }\n}\n\n"]],"start1":328,"start2":328,"length1":21,"length2":44}]],"length":372,"saved":false}
+{"ts":1355369237238,"patch":[[{"diffs":[[0,"        "],[1,"if "],[0,"\n       "]],"start1":344,"start2":344,"length1":16,"length2":19}]],"length":375,"saved":false}
+{"ts":1355369239365,"patch":[[{"diffs":[[0,"     if "],[1,"$"],[0,"\n       "]],"start1":347,"start2":347,"length1":16,"length2":17}]],"length":376,"saved":false}
+{"ts":1355369241498,"patch":[[{"diffs":[[0,"    if $"],[1,"b"],[0,"\n       "]],"start1":348,"start2":348,"length1":16,"length2":17}]],"length":377,"saved":false}
+{"ts":1355369242821,"patch":[[{"diffs":[[0,"   if $b"],[1," "],[0,"\n       "]],"start1":349,"start2":349,"length1":16,"length2":17}]],"length":378,"saved":false}
+{"ts":1355369244528,"patch":[[{"diffs":[[0,"  if $b "],[1,"== 0"],[0,"\n       "]],"start1":350,"start2":350,"length1":16,"length2":20}]],"length":382,"saved":false}
+{"ts":1355369248633,"patch":[[{"diffs":[[0,"$b == 0\n"],[1,"            \n"],[0,"        "]],"start1":355,"start2":355,"length1":16,"length2":29}]],"length":395,"saved":false}
+{"ts":1355369252594,"patch":[[{"diffs":[[0,"        "],[1,"retu"],[0,"\n       "]],"start1":367,"start2":367,"length1":16,"length2":20}]],"length":399,"saved":false}
+{"ts":1355369253828,"patch":[[{"diffs":[[0,"    retu"],[1,"rn"],[0,"\n       "]],"start1":371,"start2":371,"length1":16,"length2":18}]],"length":401,"saved":false}
+{"ts":1355369254679,"patch":[[{"diffs":[[0,"  return"],[1," "],[0,"\n       "]],"start1":373,"start2":373,"length1":16,"length2":17}]],"length":402,"saved":false}
+{"ts":1355369255655,"patch":[[{"diffs":[[0," return "],[1,"''"],[0,"\n       "]],"start1":374,"start2":374,"length1":16,"length2":18}]],"length":404,"saved":false}
+{"ts":1355369256750,"patch":[[{"diffs":[[0,"return '"],[1,"you"],[0,"'\n      "]],"start1":375,"start2":375,"length1":16,"length2":19}]],"length":407,"saved":false}
+{"ts":1355369258924,"patch":[[{"diffs":[[0,"urn 'you"],[1," cannot"],[0,"'\n      "]],"start1":378,"start2":378,"length1":16,"length2":23}]],"length":414,"saved":false}
+{"ts":1355369262309,"patch":[[{"diffs":[[0,"u cannot"],[1," divide by "],[0,"'\n      "]],"start1":385,"start2":385,"length1":16,"length2":27}]],"length":425,"saved":false}
+{"ts":1355369264241,"patch":[[{"diffs":[[0,"vide by "],[1,"zero"],[0,"'\n      "]],"start1":396,"start2":396,"length1":16,"length2":20}]],"length":429,"saved":false}
+{"ts":1355369274059,"patch":[[{"diffs":[[0,"$b == 0\n"],[1,"            \n"],[0,"        "]],"start1":355,"start2":355,"length1":16,"length2":29}]],"length":442,"saved":false}
+{"ts":1355369275178,"patch":[[{"diffs":[[0,"        "],[-1,"    "],[1,"}"],[0,"\n       "]],"start1":363,"start2":363,"length1":20,"length2":17}]],"length":439,"saved":false}
+{"ts":1355369283440,"patch":[[{"diffs":[[0,"$b == 0\n"],[-1,"        }\n"],[0,"        "]],"start1":355,"start2":355,"length1":26,"length2":16}]],"length":429,"saved":false}
+{"ts":1355369288525,"patch":[[{"diffs":[[0,"y zero'\n"],[1,"            \n"],[0,"        "]],"start1":402,"start2":402,"length1":16,"length2":29}]],"length":442,"saved":false}
+{"ts":1355369290817,"patch":[[{"diffs":[[0,"        "],[1,"else"],[0,"\n       "]],"start1":414,"start2":414,"length1":16,"length2":20}]],"length":446,"saved":false}
+{"ts":1355369292763,"patch":[[{"diffs":[[0,"by zero'"],[1,";"],[0,"\n       "]],"start1":401,"start2":401,"length1":16,"length2":17}]],"length":447,"saved":false}
+{"ts":1355369308964,"patch":[[{"diffs":[[0,"    else"],[1," "],[0,"\n       "]],"start1":419,"start2":419,"length1":16,"length2":17}]],"length":448,"saved":false}
+{"ts":1355369356245,"patch":[[{"diffs":[[0,"    "],[-1," return $a / $b;"],[0,"\n   "]],"start1":309,"start2":309,"length1":24,"length2":8}]],"length":432,"saved":false}
+{"ts":1355369360727,"patch":[[{"diffs":[[0,"  else \n"],[1,"            \n"],[0,"        "]],"start1":405,"start2":405,"length1":16,"length2":29}]],"length":445,"saved":false}
+{"ts":1355369361768,"patch":[[{"diffs":[[0,"            "],[1," return $a / $b;"],[0,"\n        }\n "]],"start1":413,"start2":413,"length1":24,"length2":40}]],"length":461,"saved":false}
+{"ts":1355369376950,"patch":[[{"diffs":[[0," $b = null)\n"],[-1,"    {\n"],[0,"       \n    "]],"start1":288,"start2":288,"length1":30,"length2":24}]],"length":455,"saved":false}
+{"ts":1355369380280,"patch":[[{"diffs":[[0,"\n       "],[-1,"\n        "],[0,"{\n      "]],"start1":299,"start2":299,"length1":25,"length2":16}]],"length":446,"saved":false}
+{"ts":1355369383568,"patch":[[{"diffs":[[0,"      }\n"],[-1,"    }\n"],[0,"}\n\n"]],"start1":429,"start2":429,"length1":17,"length2":11}]],"length":440,"saved":false}
+{"ts":1355369388641,"patch":[[{"diffs":[[0,"$b == 0\n"],[1,"            \n"],[0,"        "]],"start1":324,"start2":324,"length1":16,"length2":29}]],"length":453,"saved":false}
+{"ts":1355369390086,"patch":[[{"diffs":[[0,"        "],[1,"{"],[0,"\n       "]],"start1":336,"start2":336,"length1":16,"length2":17}]],"length":454,"saved":false}
+{"ts":1355369400628,"patch":[[{"diffs":[[0," zero';\n"],[1,"            \n"],[0,"        "]],"start1":386,"start2":386,"length1":16,"length2":29}]],"length":467,"saved":false}
+{"ts":1355369402113,"patch":[[{"diffs":[[0,"        "],[1,"}"],[0,"\n       "]],"start1":398,"start2":398,"length1":16,"length2":17}]],"length":468,"saved":false}
+{"ts":1355369405498,"patch":[[{"diffs":[[0,"   else "],[1,"\\"],[0,"\n       "]],"start1":417,"start2":417,"length1":16,"length2":17}]],"length":469,"saved":false}
+{"ts":1355369406873,"patch":[[{"diffs":[[0,"lse "],[-1,"\\"],[1,"\n            "],[0,"\n   "]],"start1":421,"start2":421,"length1":9,"length2":21}]],"length":481,"saved":false}
+{"ts":1355369408143,"patch":[[{"diffs":[[0,"        "],[1,"{"],[0,"\n       "]],"start1":430,"start2":430,"length1":16,"length2":17}]],"length":482,"saved":false}
+{"ts":1355369413135,"patch":[[{"diffs":[[0,"rn $a / $b;\n"],[1,"            }\n"],[0,"        }\n}\n"]],"start1":457,"start2":457,"length1":24,"length2":38}]],"length":496,"saved":false}
+{"ts":1355369438228,"patch":[[{"diffs":[[0,"     if "],[1,"("],[0,"$b == 0\n"]],"start1":316,"start2":316,"length1":16,"length2":17}]],"length":497,"saved":false}
+{"ts":1355369439955,"patch":[[{"diffs":[[0,"($b == 0"],[1,")"],[0,"\n       "]],"start1":324,"start2":324,"length1":16,"length2":17}]],"length":498,"saved":false}
