@@ -58,5 +58,9 @@ test ($calculator->mult (1,1) == 2, '1 * 1 ==2');
 //Failing test for Division
 test ($calculator-> div (1,1) == 1, '1/1==1');
 
+//Testing for the next equations
+test ($calculator->div (1,0) == null, '1 / 0 == null');
+
+
 
 
