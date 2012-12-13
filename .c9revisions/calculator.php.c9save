@@ -168,3 +168,26 @@
 {"ts":1355279386952,"patch":[[{"diffs":[[0," $a "],[-1,"8"],[1,"* "],[0,"\n   "]],"start1":251,"start2":251,"length1":9,"length2":10}]],"length":266,"saved":false}
 {"ts":1355279389123,"patch":[[{"diffs":[[0,"rn $a * "],[1,"$b"],[0,"\n    }\n}"]],"start1":249,"start2":249,"length1":16,"length2":18}]],"length":268,"saved":false}
 {"ts":1355279393806,"patch":[[{"diffs":[[0," $a * $b"],[1,";"],[0,"\n    }\n}"]],"start1":251,"start2":251,"length1":16,"length2":17}]],"length":269,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1355368618445,"patch":[[{"diffs":[[0,";\n    }\n"],[1,"    \n"],[0,"}\n"]],"start1":259,"start2":259,"length1":10,"length2":15}]],"length":274,"saved":false}
+{"ts":1355368620972,"patch":[[{"diffs":[[0,"  }\n    "],[1,"function"],[0,"\n}\n"]],"start1":263,"start2":263,"length1":11,"length2":19}]],"length":282,"saved":false}
+{"ts":1355368622733,"patch":[[{"diffs":[[0,"function"],[1," div "],[0,"\n}\n"]],"start1":271,"start2":271,"length1":11,"length2":16}]],"length":287,"saved":false}
+{"ts":1355368623418,"patch":[[{"diffs":[[0,"ion div "],[1,"()"],[0,"\n}\n"]],"start1":276,"start2":276,"length1":11,"length2":13}]],"length":289,"saved":false}
+{"ts":1355368624121,"patch":[[{"diffs":[[0,"on div ("],[1,"$"],[0,")\n}\n"]],"start1":277,"start2":277,"length1":12,"length2":13}]],"length":290,"saved":false}
+{"ts":1355368626183,"patch":[[{"diffs":[[0,"n div ($"],[1,"a"],[0,")\n}\n"]],"start1":278,"start2":278,"length1":12,"length2":13}]],"length":291,"saved":false}
+{"ts":1355368627596,"patch":[[{"diffs":[[0," div ($a"],[1,", "],[0,")\n}\n"]],"start1":279,"start2":279,"length1":12,"length2":14}]],"length":293,"saved":false}
+{"ts":1355368628718,"patch":[[{"diffs":[[0,"iv ($a, "],[1,"$"],[0,")\n}\n"]],"start1":281,"start2":281,"length1":12,"length2":13}]],"length":294,"saved":false}
+{"ts":1355368632182,"patch":[[{"diffs":[[0,"v ($a, $"],[1,"b "],[0,")\n}\n"]],"start1":282,"start2":282,"length1":12,"length2":14}]],"length":296,"saved":false}
+{"ts":1355368632916,"patch":[[{"diffs":[[0,"($a, $b "],[1,"="],[0,")\n}\n"]],"start1":284,"start2":284,"length1":12,"length2":13}]],"length":297,"saved":false}
+{"ts":1355368635666,"patch":[[{"diffs":[[0,"$a, $b ="],[1," null"],[0,")\n}\n"]],"start1":285,"start2":285,"length1":12,"length2":17}]],"length":302,"saved":false}
+{"ts":1355368641154,"patch":[[{"diffs":[[0,"= null)\n"],[1,"    \n"],[0,"}\n"]],"start1":292,"start2":292,"length1":10,"length2":15}]],"length":307,"saved":false}
+{"ts":1355368643307,"patch":[[{"diffs":[[0,"ll)\n    "],[1,"{"],[0,"\n}\n"]],"start1":296,"start2":296,"length1":11,"length2":12}]],"length":308,"saved":false}
+{"ts":1355368644269,"patch":[[{"diffs":[[0,")\n    {\n"],[1,"        \n    }\n"],[0,"}\n"]],"start1":298,"start2":298,"length1":10,"length2":25}]],"length":323,"saved":false}
+{"ts":1355368645893,"patch":[[{"diffs":[[0,"        "],[1,"ret"],[0,"\n    }\n}"]],"start1":306,"start2":306,"length1":16,"length2":19}]],"length":326,"saved":false}
+{"ts":1355368647429,"patch":[[{"diffs":[[0,"     ret"],[1,"urn"],[0,"\n    }\n}"]],"start1":309,"start2":309,"length1":16,"length2":19}]],"length":329,"saved":false}
+{"ts":1355368649559,"patch":[[{"diffs":[[0,"  return"],[1," "],[0,"\n    }\n}"]],"start1":312,"start2":312,"length1":16,"length2":17}]],"length":330,"saved":false}
+{"ts":1355368650650,"patch":[[{"diffs":[[0," return "],[1,"$"],[0,"\n    }\n}"]],"start1":313,"start2":313,"length1":16,"length2":17}]],"length":331,"saved":false}
+{"ts":1355368651502,"patch":[[{"diffs":[[0,"return $"],[1,"a"],[0,"\n    }\n}"]],"start1":314,"start2":314,"length1":16,"length2":17}]],"length":332,"saved":false}
+{"ts":1355368654387,"patch":[[{"diffs":[[0,"eturn $a"],[1," / "],[0,"\n    }\n}"]],"start1":315,"start2":315,"length1":16,"length2":19}]],"length":335,"saved":false}
+{"ts":1355368655916,"patch":[[{"diffs":[[0,"rn $a / "],[1,"$"],[0,"\n    }\n}"]],"start1":318,"start2":318,"length1":16,"length2":17}]],"length":336,"saved":false}
+{"ts":1355368657471,"patch":[[{"diffs":[[0,"n $a / $"],[1,"b"],[0,"\n    }\n}"]],"start1":319,"start2":319,"length1":16,"length2":17}]],"length":337,"saved":false}
+{"ts":1355368659064,"patch":[[{"diffs":[[0," $a / $b"],[1,";"],[0,"\n    }\n}"]],"start1":320,"start2":320,"length1":16,"length2":17}]],"length":338,"saved":false}

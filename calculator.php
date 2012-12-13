@@ -16,4 +16,8 @@ class Calculator
     {
         return $a * $b;
     }
+    function div ($a, $b = null)
+    {
+        return $a / $b;
+    }
 }
