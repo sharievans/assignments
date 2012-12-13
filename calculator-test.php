@@ -55,6 +55,8 @@ test ($calculator->mult (-1,-1) == 1, '-1 * -1 == 1');
 //false statement
 test ($calculator->mult (1,1) == 2, '1 * 1 ==2');
 
+//Failing test for Division
+test ($calculator-> div (1,1) == 1, '1/1==1');
 
 
 
