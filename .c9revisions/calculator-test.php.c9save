@@ -708,3 +708,13 @@
 {"ts":1355453066117,"patch":[[{"diffs":[[0," == erro"],[1,"r"],[0,"');\n\n//n"]],"start1":1880,"start2":1880,"length1":16,"length2":17}]],"length":2142,"saved":false}
 {"ts":1355453076517,"patch":[[{"diffs":[[0,"l, '"],[-1,"you cannot divide by ze"],[1,"1 / 0 == er"],[0,"ro"],[1,"r"],[0,"');\n"]],"start1":1946,"start2":1946,"length1":33,"length2":22}]],"length":2131,"saved":false}
 {"ts":1355453078985,"patch":[[{"diffs":[[0,"(0,0) == null, '"],[-1,"1"],[1,"0"],[0," / 0 == error');"]],"start1":1934,"start2":1934,"length1":33,"length2":33}]],"length":2131,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1355492013242,"patch":[[{"diffs":[[0,"1,0) == "],[-1,"null"],[0,", '1 / 0"]],"start1":1860,"start2":1860,"length1":20,"length2":16}]],"length":2127,"saved":false}
+{"ts":1355492014246,"patch":[[{"diffs":[[0,"1,0) == "],[1,"e"],[0,", '1 / 0"]],"start1":1860,"start2":1860,"length1":16,"length2":17}]],"length":2128,"saved":false}
+{"ts":1355492015123,"patch":[[{"diffs":[[0,",0) == e"],[1,"rro"],[0,", '1 / 0"]],"start1":1861,"start2":1861,"length1":16,"length2":19}]],"length":2131,"saved":false}
+{"ts":1355492015906,"patch":[[{"diffs":[[0," == erro"],[1,"r"],[0,", '1 / 0"]],"start1":1864,"start2":1864,"length1":16,"length2":17}]],"length":2132,"saved":false}
+{"ts":1355492019562,"patch":[[{"diffs":[[0,"iv (1,0) == "],[1,"'"],[0,"error, '1 / "]],"start1":1856,"start2":1856,"length1":24,"length2":25}]],"length":2133,"saved":false}
+{"ts":1355492022440,"patch":[[{"diffs":[[0,"= 'error"],[1,"'"],[0,", '1 / 0"]],"start1":1866,"start2":1866,"length1":16,"length2":17}]],"length":2134,"saved":false}
+{"ts":1355492029888,"patch":[[{"diffs":[[0,"0,0) == "],[-1,"null"],[1,"'"],[0,", '0 / 0"]],"start1":1938,"start2":1938,"length1":20,"length2":17}]],"length":2131,"saved":false}
+{"ts":1355492035021,"patch":[[{"diffs":[[0,",0) == '"],[1,"erro"],[0,", '0 / 0"]],"start1":1939,"start2":1939,"length1":16,"length2":20}]],"length":2135,"saved":false}
+{"ts":1355492036025,"patch":[[{"diffs":[[0,"== 'erro"],[1,"r"],[0,", '0 / 0"]],"start1":1943,"start2":1943,"length1":16,"length2":17}]],"length":2136,"saved":false}
+{"ts":1355492037521,"patch":[[{"diffs":[[0,"= 'error"],[1,"'"],[0,", '0 / 0"]],"start1":1944,"start2":1944,"length1":16,"length2":17}]],"length":2137,"saved":false}
