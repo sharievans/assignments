@@ -67,5 +67,7 @@ test ($calculator->div (1,-1) == -1, '1 / -1 == -1');
 test ($calculator->div (0,-1) == 0, '0 / -1 == 0');
 test ($calculator->div (-1,-1) == 1, '-1 / -1 == 1');
 
+//false statement
+test ($calculator->div (1,1) == 2, '1 / 1 == 2');
 
 
