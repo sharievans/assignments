@@ -24,7 +24,7 @@ class Calculator
             }
             else 
             {
-                return 'You cannot divide by zero';
+                return 'error';
             }
         }
 }

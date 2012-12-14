@@ -322,3 +322,5 @@
 {"ts":1355453022505,"patch":[[{"diffs":[[0," zero\";\n"],[1,"            }\n"],[0,"        "]],"start1":467,"start2":467,"length1":16,"length2":30}]],"length":502,"saved":false}
 {"contributors":[],"silentsave":true,"ts":1355491897197,"patch":[[{"diffs":[[0," return "],[-1,"\""],[1,"'"],[0,"You cann"]],"start1":438,"start2":438,"length1":17,"length2":17}]],"length":502,"saved":false}
 {"ts":1355491900890,"patch":[[{"diffs":[[0,"zero"],[-1,"\""],[1,"'"],[0,";\n  "]],"start1":468,"start2":468,"length1":9,"length2":9}]],"length":502,"saved":false}
+{"ts":1355492101630,"patch":[[{"diffs":[[0,"rn '"],[-1,"You cannot divide by zero"],[0,"';\n "]],"start1":443,"start2":443,"length1":33,"length2":8}]],"length":477,"saved":false}
+{"ts":1355492103652,"patch":[[{"diffs":[[0,"return '"],[1,"error"],[0,"';\n     "]],"start1":439,"start2":439,"length1":16,"length2":21}]],"length":482,"saved":false}
