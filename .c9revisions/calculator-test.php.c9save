@@ -700,3 +700,11 @@
 {"ts":1355369864230,"patch":[[{"diffs":[[0,"1,-1) == -1, '1 "],[-1,"*"],[1,"/"],[0," -1 == -1');\ntes"]],"start1":2014,"start2":2014,"length1":33,"length2":33}]],"length":2153,"saved":false}
 {"ts":1355369892575,"patch":[[{"diffs":[[0,"(0,-1) == 0, '0 "],[-1,"*"],[1,"/"],[0," -1 == 0');\ntest"]],"start1":2067,"start2":2067,"length1":33,"length2":33}]],"length":2153,"saved":false}
 {"ts":1355369952513,"patch":[[{"diffs":[[0,"1,-1) == 1, '-1 "],[-1,"*"],[1,"/"],[0," -1 == 1');\n\n\n\n"]],"start1":2121,"start2":2121,"length1":32,"length2":32}]],"length":2153,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1355453057737,"patch":[[{"diffs":[[0,"l, '"],[-1,"you cannot divide by zero"],[1,"1"],[0,"');\n"]],"start1":1871,"start2":1871,"length1":33,"length2":9}]],"length":2129,"saved":false}
+{"ts":1355453060334,"patch":[[{"diffs":[[0,"null, '1"],[1," /"],[0,"');\n\n//n"]],"start1":1868,"start2":1868,"length1":16,"length2":18}]],"length":2131,"saved":false}
+{"ts":1355453061379,"patch":[[{"diffs":[[0,"ll, '1 /"],[1," 0"],[0,"');\n\n//n"]],"start1":1870,"start2":1870,"length1":16,"length2":18}]],"length":2133,"saved":false}
+{"ts":1355453063736,"patch":[[{"diffs":[[0,", '1 / 0"],[1," == "],[0,"');\n\n//n"]],"start1":1872,"start2":1872,"length1":16,"length2":20}]],"length":2137,"saved":false}
+{"ts":1355453065156,"patch":[[{"diffs":[[0," / 0 == "],[1,"erro"],[0,"');\n\n//n"]],"start1":1876,"start2":1876,"length1":16,"length2":20}]],"length":2141,"saved":false}
+{"ts":1355453066117,"patch":[[{"diffs":[[0," == erro"],[1,"r"],[0,"');\n\n//n"]],"start1":1880,"start2":1880,"length1":16,"length2":17}]],"length":2142,"saved":false}
+{"ts":1355453076517,"patch":[[{"diffs":[[0,"l, '"],[-1,"you cannot divide by ze"],[1,"1 / 0 == er"],[0,"ro"],[1,"r"],[0,"');\n"]],"start1":1946,"start2":1946,"length1":33,"length2":22}]],"length":2131,"saved":false}
+{"ts":1355453078985,"patch":[[{"diffs":[[0,"(0,0) == null, '"],[-1,"1"],[1,"0"],[0," / 0 == error');"]],"start1":1934,"start2":1934,"length1":33,"length2":33}]],"length":2131,"saved":false}

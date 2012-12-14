@@ -19,7 +19,13 @@ class Calculator
     function div ($a, $b = null)
        {
             if ($b != 0)
+            {
              return $a / $b;
+            }
+            else 
+            {
+                return "You cannot divide by zero";
+            }
         }
 }
 
