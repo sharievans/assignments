@@ -282,3 +282,8 @@
 {"ts":1355369413135,"patch":[[{"diffs":[[0,"rn $a / $b;\n"],[1,"            }\n"],[0,"        }\n}\n"]],"start1":457,"start2":457,"length1":24,"length2":38}]],"length":496,"saved":false}
 {"ts":1355369438228,"patch":[[{"diffs":[[0,"     if "],[1,"("],[0,"$b == 0\n"]],"start1":316,"start2":316,"length1":16,"length2":17}]],"length":497,"saved":false}
 {"ts":1355369439955,"patch":[[{"diffs":[[0,"($b == 0"],[1,")"],[0,"\n       "]],"start1":324,"start2":324,"length1":16,"length2":17}]],"length":498,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1355452743069,"patch":[[{"diffs":[[0,"if ($b ="],[-1,"="],[0," 0)\n    "]],"start1":321,"start2":321,"length1":17,"length2":16}]],"length":497,"saved":false}
+{"ts":1355452745835,"patch":[[{"diffs":[[0," if ($b "],[1,"!"],[0,"= 0)\n   "]],"start1":320,"start2":320,"length1":16,"length2":17}]],"length":498,"saved":false}
+{"ts":1355452768571,"patch":[[{"diffs":[[0," 0)\n"],[-1,"            {\n            return 'you cannot divide by zero';\n            }\n            else \n            {"],[0,"\n   "]],"start1":330,"start2":330,"length1":115,"length2":8}]],"length":391,"saved":false}
+{"ts":1355452769771,"patch":[[{"diffs":[[0,"b != 0)\n"],[-1,"\n"],[0,"        "]],"start1":326,"start2":326,"length1":17,"length2":16}]],"length":390,"saved":false}
+{"ts":1355452780372,"patch":[[{"diffs":[[0,"$b;\n"],[-1,"            }\n"],[0,"    "]],"start1":359,"start2":359,"length1":22,"length2":8}]],"length":376,"saved":false}

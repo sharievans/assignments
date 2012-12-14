@@ -18,14 +18,8 @@ class Calculator
     }
     function div ($a, $b = null)
        {
-            if ($b == 0)
-            {
-            return 'you cannot divide by zero';
-            }
-            else 
-            {
+            if ($b != 0)
              return $a / $b;
-            }
         }
 }
 
